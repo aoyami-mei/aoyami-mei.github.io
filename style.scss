@@ -553,6 +553,26 @@ footer {
   }
 }
 
+@media (min-width: 2200px) {
+  .black-button img {
+    left: 36%;
+  }
+  section.clients .list-1 img, section.clients .list-2 img {
+    max-width: 35%;
+  }
+  section.company img.aboutcompany-photo-1 {
+    max-width: 25%;
+  }
+  section.types .type {
+    min-height: 500px;
+    background-size: 100% 100%;
+  }
+  section.types .type span {
+    top: 14px;
+    right: 70px;
+  }
+}
+
 @media (max-width: 1200px) {
   .black-button {
     img {
