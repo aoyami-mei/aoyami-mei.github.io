@@ -539,98 +539,104 @@ footer {
 
 @media (min-width: 2200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003557}}
+  body {
+    max-width: 2200px;
+    margin: 0 auto;
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003562}}
   .black-button img {
     left: 36%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003565}}
   section.clients .list-1 img, section.clients .list-2 img {
     max-width: 35%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003568}}
   section.company img.aboutcompany-photo-1 {
     max-width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003566}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003571}}
   section.types .type {
     min-height: 500px;
     background-size: 100% 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003575}}
   section.types .type span {
     top: 14px;
     right: 70px; } }
 @media (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003583}}
   .black-button img {
     left: 87%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003591}}
   section.clients .list-1 ul ol h3::after {
     right: 65px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003599}}
   section.types .row.row-types {
     width: 100vw;
     margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003597}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003602}}
     section.types .row.row-types .type {
       padding: 57px 60px 0px 86px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003604}}
       section.types .row.row-types .type span {
         display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003607}}
       section.types .row.row-types .type:hover {
         background-image: none;
         transform: none;
         box-shadow: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003611}}
         section.types .row.row-types .type:hover p, section.types .row.row-types .type:hover h3 {
           color: #666666; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003614}}
         section.types .row.row-types .type:hover span {
           display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003624}}
   section.company .row.row-2 img.aboutcompany-photo-2 {
     width: 85%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003631}}
   section.news .row.row-2 {
     justify-content: space-around; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003637}}
   section.contacts .contact-info {
     padding: 30px 100px 30px 49px; } }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003639}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003644}}
   header {
     height: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003646}}
     header img {
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003646}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003651}}
     header .container .row ul {
       padding: 0 0 0 35px;
       margin-bottom: 0;
       text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003655}}
       header .container .row ul li {
         padding-right: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003663}}
   section.info-block {
     height: 700px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003665}}
     section.info-block h1 {
       padding-top: 10px;
       padding-bottom: 10px;
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003670}}
     section.info-block .button-more-info {
       padding-top: 10px;
       text-align: center;
       margin: 30px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003675}}
     section.info-block .square {
       width: 100px;
       height: 200px;
@@ -638,196 +644,196 @@ footer {
       padding-left: 0;
       margin: 10px auto;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003677}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003682}}
       section.info-block .square::before {
         display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003686}}
     section.info-block .black-button {
       width: 100%;
       height: 80px;
       padding: 20px 0 0 0;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003691}}
       section.info-block .black-button img {
         display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003698}}
   section.clients .list-1 {
     position: relative;
     height: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003696}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003701}}
     section.clients .list-1 ul {
       padding-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003703}}
       section.clients .list-1 ul h3::after {
         left: -75px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003706}}
       section.clients .list-1 ul li {
         padding-bottom: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003705}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003710}}
     section.clients .list-1 img {
       width: 40%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003714}}
   section.clients .list-2 {
     position: relative;
     padding-top: 40px;
     height: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003713}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003718}}
     section.clients .list-2 ul {
       padding-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003720}}
       section.clients .list-2 ul li {
         padding-bottom: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003724}}
     section.clients .list-2 img {
       width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003731}}
   section.types h2 {
     padding: 60px 0 30px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003734}}
   section.types .row.row-types .type {
     padding: 35px 20px 0px 35px;
     height: 420px;
     margin-bottom: 130px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003741}}
   section.company {
     margin-bottom: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003744}}
     section.company .row.row-2 .black-button {
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003742}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003747}}
     section.company .row.row-2 img.aboutcompany-photo-2 {
       display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003749}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003754}}
   section.news .row.row-1 {
     padding-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003752}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003757}}
   section.news .row.row-2 .new {
     padding-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003759}}
     section.news .row.row-2 .new:hover .img-new {
       transform: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003756}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003761}}
       section.news .row.row-2 .new:hover .img-new .black-button {
         display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003766}}
     section.news .row.row-2 .new .img-new img {
       width: 95%;
       padding-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003766}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003771}}
     section.news .row.row-2 .new span {
       padding-bottom: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003778}}
   section.contacts .contact-info {
     padding: 22px 23px 30px 38px; } }
 @media (max-width: 576px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003786}}
   h1 {
     font-size: 32px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003784}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003789}}
   header .container .row ul {
     padding: 0 0 0 39px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003786}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003791}}
     header .container .row ul li {
       padding-right: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003788}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003793}}
       header .container .row ul li a:hover {
         border-top: none;
         padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003795}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003800}}
   section.info-block .square {
     width: 95px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003797}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003802}}
     section.info-block .square p {
       font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003808}}
   section.clients h2 {
     padding: 50px 0 30px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003812}}
   section.clients .list-1 ul {
     padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003809}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003814}}
     section.clients .list-1 ul ol h3::after {
       content: ""; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003813}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003818}}
   section.clients .list-1 img {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003818}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003823}}
   section.clients .list-2 ul ol h3::before {
     content: ""; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003826}}
   section.clients .list-2 img {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003828}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003833}}
   section.types .row.row-types .type {
     margin-bottom: 20px;
     height: 300px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003831}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003836}}
     section.types .row.row-types .type p {
       padding-top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003839}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003844}}
   section.company .row.row-2 .black-button {
     padding: 35px 0 23px 55px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003841}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003846}}
     section.company .row.row-2 .black-button img {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003845}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003850}}
   section.company .row.row-2 img.aboutcompany-photo-2 {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003852}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003857}}
   section.news .row.row-2 .new {
     padding-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003855}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003860}}
     section.news .row.row-2 .new .img-new img {
       width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003862}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003867}}
   section.contacts {
     .background-image: none;
     height: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003865}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003870}}
     section.contacts .contact-info {
       box-shadow: 0 0px 10px rgba(0, 0, 6, 0.2);
       margin-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003872}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003877}}
   footer .input {
     padding-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003879}}
     footer .input input[type="text"] {
       width: 100%; } }
 @media (max-width: 360px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003883}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003888}}
   header .container .row ul li {
     padding-right: 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003886}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003891}}
   section.info-block h1 {
     letter-spacing: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003889}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003894}}
   section.company img.aboutcompany-photo-1 {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003892}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003897}}
   section.company .row.row-2 .black-button {
     padding: 30px 0 25px 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003895}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003900}}
   section.news .row.row-1 {
     padding-bottom: 100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003898}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Job\/Redsoft\/style\.scss}line{font-family:\00003903}}
   section.news .row.row-1 .button-more-info {
     left: 81px;
     top: 113px; } }

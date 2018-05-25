@@ -554,6 +554,11 @@ footer {
 }
 
 @media (min-width: 2200px) {
+  body {
+    max-width: 2200px;
+    margin: 0 auto;
+    position: relative;
+  }
   .black-button img {
     left: 36%;
   }
