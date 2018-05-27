@@ -97,7 +97,7 @@
   img {
     position: absolute;
     top: 45px;
-    left: 47%;
+    left: 414px;
 
   }
 }
@@ -348,6 +348,7 @@ section.types {
       transition: all 1s;
       z-index: 10;
       box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+      background-size: 100% 100%;
       p, span, h3 {
         color: #ffffff;
       }
