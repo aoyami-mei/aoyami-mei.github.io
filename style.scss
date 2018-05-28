@@ -225,18 +225,17 @@ section.clients {
       left: 0;
       width: 44.15%;
     }
-    ul {
-      padding-top: 83px;
-      ol {
-        padding: 0 0 40px 0;
-        position: relative;
-        h3::after {
-          content: url('images/icon-cityscape.png');
-          position: absolute;
-          top: -18px;
-          right: 145px;
-        }
+    h3 {
+      padding: 80px 0 40px 40px;
+      position: relative;
+      &::after {
+        content: url('images/icon-cityscape.png');
+        position: absolute;
+        top: 59px;
+        right: -45px;
       }
+    }
+    ul {
       li {
         list-style-type: none;
         font-size: 18px;
@@ -272,19 +271,18 @@ section.clients {
       right: 0;
       width: 44.15%;
     }
-    ul {
-      padding-top: 83px;
-      padding-left: 0;
-      ol {
-        padding: 0 0 40px 0;
-        position: relative;
-        h3::before {
-          content: url('images/icon-skyscaper.png');
-          position: absolute;
-          top: -18px;
-          left: -84px;
-        }
+    h3 {
+      padding: 80px 0 40px 0;
+      position: relative;
+      &::before {
+        content: url('images/icon-skyscaper.png');
+        position: absolute;
+        top: 63px;
+        left: -92px;
       }
+    }
+    ul {
+      padding-left: 0;
       li {
         list-style-type: none;
         font-size: 18px;
@@ -305,7 +303,6 @@ section.clients {
     }
     .button-more-info {
       margin-top: 25px;
-      margin-left: 30px;
       &:hover {
       border: 2px solid #0e7aff;
       transition: 0.5s;
@@ -533,15 +530,17 @@ footer {
   p.sub {
     padding-left: 60px;
   }
+  h5 {
+    padding: 0 0 20px 0;
+      &:hover {
+        color: #0e7aff;
+        cursor: pointer;
+      }
+    }
   ul {
     padding: 0;
     cursor: pointer;
-    ol {
-      padding: 0 0 20px 0;
-      &:hover {
-        color: #0e7aff;
-      }
-    }
+    
     li {
       list-style-type: none;
       font-size: 14px;
@@ -793,18 +792,21 @@ footer {
       padding: 50px 0 30px 0;
     }
     .list-1 {
-      ul {
+      h3 {
         padding-left: 0;
-        ol h3::after {
+        &::after {
         content: "";
         }
+      }
+      ul {
+        padding-left: 0;
       }
       img {
         display: none;
       }
     }
     .list-2 {
-      ul ol h3::before {
+      h3::before {
         content: "";
       }
       img {
