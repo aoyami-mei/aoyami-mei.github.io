@@ -562,6 +562,11 @@ footer {
 }
 
 @media (max-width: 1200px) {
+	section.info-block {
+		background-color: #aaccd7;
+		background-image: none;
+	}
+
   .black-button {
     img {
       left: 87%;
@@ -681,11 +686,12 @@ footer {
     .list-1 {
       position: relative;
       height: inherit;
+      padding-left: 15px;
+      h3 {
+      	padding: 0px 0 40px 40px;
+      }
       ul {
         padding-top: 0;
-        h3::after {
-          left: -75px;
-        }
         li {
           padding-bottom: 7px;
         }
@@ -698,6 +704,10 @@ footer {
       position: relative;
       padding-top: 40px;
       height: inherit;
+      padding-left: 15px;
+      h3 {
+      	padding: 0px 0 40px 40px;
+      }
       ul {
         padding-top: 0;
         li {
@@ -735,7 +745,14 @@ footer {
 
   section.news {
     .row.row-1 {
-      padding-bottom: 40px;
+      padding-bottom: 80px;
+      h2 {
+      	padding-left: 15px;
+      }
+      .button-more-info {
+      	left: calc(50% - 80px);
+    		bottom: 23px;
+      }
     }
     .row.row-2 .new {
       padding-bottom: 40px;
