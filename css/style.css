@@ -1,800 +1,329 @@
-@font-face {
-  font-family: RobotoRegular;
-  src: url("fonts/RobotoRegular.eot");
-  src: url("fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("fonts/RobotoRegular.woff") format("woff"), url("fonts/RobotoRegular.ttf") format("truetype"); }
-@font-face {
-  font-family: RobotoSlabRegular;
-  src: url("fonts/RobotoSlabRegular.eot");
-  src: url("fonts/RobotoSlabRegular.eot?#iefix") format("embedded-opentype"), url("fonts/RobotoSlabRegular.woff") format("woff"), url("fonts/RobotoSlabRegular.ttf") format("truetype"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000313}}
-body {
-  overflow-x: hidden;
-  color: #000000;
-  position: relative; }
+@charset "UTF-8";
+@font-face { 
+    font-family: Montserrat-Bold; 
+    src: url("fonts/Montserrat-Bold.eot"); 
+    src: url("fonts/Montserrat-Bold.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Montserrat-Bold.woff")format("woff"), 
+	    url("fonts/Montserrat-Bold.ttf") format("truetype"); 
+}
+@font-face { 
+    font-family: Rubik-Black; 
+    src: url("fonts/Rubik-Black.eot"); 
+    src: url("fonts/Rubik-Black.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-Black.woff")format("woff"), 
+	    url("fonts/Rubik-Black.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-BlackItalic; 
+    src: url("fonts/Rubik-BlackItalic.eot"); 
+    src: url("fonts/Rubik-BlackItalic.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-BlackItalic.woff")format("woff"), 
+	    url("fonts/Rubik-BlackItalic.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-Bold; 
+    src: url("fonts/Rubik-Bold.eot"); 
+    src: url("fonts/Rubik-Bold.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-Bold.woff")format("woff"), 
+	    url("fonts/Rubik-Bold.ttf") format("truetype");  
+}
+@font-face { 
+	font-family: Rubik-BoldItalic; 
+    src: url("fonts/Rubik-BoldItalic.eot"); 
+    src: url("fonts/Rubik-BoldItalic.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-BoldItalic.woff")format("woff"), 
+	    url("fonts/Rubik-BoldItalic.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-Italic; 
+    src: url("fonts/Rubik-Italic.eot"); 
+    src: url("fonts/Rubik-Italic.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-Italic.woff")format("woff"), 
+	    url("fonts/Rubik-Italic.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-Light; 
+    src: url("fonts/Rubik-Light.eot"); 
+    src: url("fonts/Rubik-Light.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-Light.woff")format("woff"), 
+	    url("fonts/Rubik-Light.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-LightItalic; 
+    src: url("fonts/Rubik-LightItalic.eot"); 
+    src: url("fonts/Rubik-LightItalic.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-LightItalic.woff")format("woff"), 
+	    url("fonts/Rubik-LightItalic.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-Medium; 
+    src: url("fonts/Rubik-Medium.eot"); 
+    src: url("fonts/Rubik-Medium.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-Medium.woff")format("woff"), 
+	    url("fonts/Rubik-Medium.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-MediumItalic; 
+    src: url("fonts/Rubik-MediumItalic.eot"); 
+    src: url("fonts/Rubik-MediumItalic.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-MediumItalic.woff")format("woff"), 
+	    url("fonts/Rubik-MediumItalic.ttf") format("truetype");
+}
+@font-face { 
+	font-family: Rubik-Regular; 
+    src: url("fonts/Rubik-Regular.eot"); 
+    src: url("fonts/Rubik-Regular.eot?#iefix")format("embedded-opentype"), 
+	    url("fonts/Rubik-Regular.woff")format("woff"), 
+	    url("fonts/Rubik-Regular.ttf") format("truetype");
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000319}}
-a {
-  color: inherit;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000323}}
-  a:hover {
-    text-decoration: none; }
+/*********** Common ***********/
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, 
+.col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, 
+.col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, 
+.col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, 
+.col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { padding-left: 0; padding-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000328}}
-.button {
-  display: inline-block;
-  width: 300px;
-  height: 40px;
-  text-align: center;
-  background-color: #bcc73a;
-  border: none;
-  color: #000000;
-  line-height: 40px;
-  border-radius: 30px;
-  transition: all 0.5s; }
+body { background-image: url('../images/main-bg.png'); overflow-x: hidden; color: #172029; position: relative; line-height: 1; font-family: Rubik-Regular; min-height: 100vh; font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000341}}
-.arrow-top {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  background-color: #bfc942;
-  opacity: 0.5;
-  z-index: 100;
-  bottom: 10%;
-  left: 30px;
-  border-radius: 50%;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000352}}
-  .arrow-top img {
-    position: absolute;
-    top: calc(50% - 11px);
-    left: calc(50% - 12px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000357}}
-  .arrow-top:hover {
-    opacity: 1;
-    transition: all 0.4s;
-    cursor: pointer; }
+p { margin-bottom: 0; font-size: 14px; color: #172029; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000364}}
-#toTop {
-  display: none; }
+a { color: inherit;  text-decoration: none;} 
+  
+a:hover { color: inherit; text-decoration: none;}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000368}}
-header {
-  position: relative;
-  z-index: 5;
-  height: 72px;
-  background-color: #ffffff;
-  opacity: 0.9;
-  text-transform: uppercase;
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000376}}
-  header .logo {
-    display: inline-block;
-    margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000380}}
-  header .description {
-    font-family: RobotoSlabRegular;
-    font-size: 14px;
-    color: #000000;
-    margin-right: 28px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000386}}
-  header .menu {
-    height: 72px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000388}}
-    header .menu a {
-      position: relative;
-      color: #808080;
-      font-size: 13px;
-      font-family: RobotoRegular;
-      margin: 0 10px;
-      display: inline-block;
-      height: 72px;
-      line-height: 72px;
-      transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\0000398}}
-      header .menu a:hover {
-        color: #c6a239; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003100}}
-        header .menu a:hover::after {
-          transform: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003104}}
-      header .menu a::after {
-        content: "";
-        position: absolute;
-        height: 4px;
-        width: 100%;
-        left: 0;
-        bottom: 0px;
-        background-color: #c6a239;
-        transition: all 0.5s;
-        transform: translateY(100%); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003117}}
-  header .number-phone {
-    position: relative;
-    font-family: RobotoSlabRegular;
-    font-size: 24px;
-    color: #000000;
-    margin-left: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003123}}
-    header .number-phone span {
-      margin-right: 7px;
-      color: #b0b0b0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003127}}
-    header .number-phone::before {
-      content: url("../images/icon-phone.png");
-      position: absolute;
-      left: -20px;
-      top: 4px; }
+ul { margin: 0; padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003136}}
-section.questions {
-  position: relative;
-  height: 651px;
-  margin-top: -72px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003141}}
-  section.questions .bubbles-questions {
-    position: relative;
-    top: 72px;
-    height: 409px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003145}}
-    section.questions .bubbles-questions .bubble {
-      position: absolute;
-      border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.9);
-      display: table;
-      text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003151}}
-      section.questions .bubbles-questions .bubble p {
-        font-size: 17px;
-        font-family: RobotoSlabRegular;
-        padding: 0 24px;
-        display: table-cell;
-        vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003157}}
-        section.questions .bubbles-questions .bubble p span {
-          color: #c6a239; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003161}}
-      section.questions .bubbles-questions .bubble.bubble-1 {
-        width: 200px;
-        height: 200px;
-        top: 15px;
-        left: -80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003166}}
-        section.questions .bubbles-questions .bubble.bubble-1::before {
-          content: url("../images/bubble-before-1.png");
-          position: absolute;
-          left: 265px;
-          top: 94px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003173}}
-      section.questions .bubbles-questions .bubble.bubble-2 {
-        width: 180px;
-        height: 180px;
-        bottom: 15px;
-        left: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003178}}
-        section.questions .bubbles-questions .bubble.bubble-2::before {
-          content: url("../images/bubble-before-2.png");
-          position: absolute;
-          left: 186px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003184}}
-      section.questions .bubbles-questions .bubble.bubble-3 {
-        width: 180px;
-        height: 180px;
-        bottom: 15px;
-        left: 405px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003189}}
-        section.questions .bubbles-questions .bubble.bubble-3::before {
-          content: url("../images/bubble-before-3.png");
-          position: absolute;
-          top: 38px;
-          left: -82px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003196}}
-      section.questions .bubbles-questions .bubble.bubble-4 {
-        width: 130px;
-        height: 130px;
-        top: 15px;
-        left: 525px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003201}}
-        section.questions .bubbles-questions .bubble.bubble-4::before {
-          content: url("../images/bubble-before-4.png");
-          position: absolute;
-          left: -106px;
-          top: 63px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003208}}
-      section.questions .bubbles-questions .bubble.bubble-5 {
-        width: 175px;
-        height: 175px;
-        top: 167px;
-        left: 612px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003213}}
-        section.questions .bubbles-questions .bubble.bubble-5::before {
-          content: url("../images/bubble-before-5.png");
-          position: absolute;
-          left: -155px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003219}}
-      section.questions .bubbles-questions .bubble.bubble-6 {
-        width: 182px;
-        height: 182px;
-        top: 15px;
-        left: 790px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003224}}
-        section.questions .bubbles-questions .bubble.bubble-6::before {
-          content: url("../images/bubble-before-6.png");
-          position: absolute;
-          left: -150px;
-          top: 90px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003231}}
-      section.questions .bubbles-questions .bubble.bubble-7 {
-        width: 190px;
-        height: 190px;
-        bottom: 30px;
-        right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003236}}
-        section.questions .bubbles-questions .bubble.bubble-7::before {
-          content: url("../images/bubble-before-7.png");
-          position: absolute;
-          top: 70px;
-          left: -120px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003245}}
-  section.questions .consultation {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.9);
-    height: 170px;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003253}}
-    section.questions .consultation::after {
-      content: "";
-      box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.9);
-      height: 1px;
-      width: 100%;
-      position: absolute;
-      left: 0px;
-      bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003262}}
-    section.questions .consultation h1 {
-      font-size: 30px;
-      font-family: RobotoSlabRegular;
-      padding-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003265}}
-      section.questions .consultation h1 span {
-        color: #c6a239; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003270}}
-    section.questions .consultation h2 {
-      font-size: 26px;
-      font-family: RobotoSlabRegular;
-      margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003274}}
-      section.questions .consultation h2 span {
-        color: #c6a239; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003278}}
-    section.questions .consultation a {
-      font-size: 18px;
-      color: #231919; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003282}}
-      section.questions .consultation a.button:hover {
-        background-color: #d7e344;
-        color: #231919; }
+li {list-style: none;}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003291}}
-section.dignity {
-  position: relative;
-  background-color: #fbfcf3;
-  padding-top: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003295}}
-  section.dignity .scales {
-    position: absolute;
-    margin: 0 auto;
-    top: 30px;
-    background-color: #ffffff;
-    border-radius: 50px;
-    width: 95px;
-    height: 95px;
-    left: calc(50% - 47px);
-    border: 1px solid #f3f3f3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003305}}
-    section.dignity .scales .scales-1 {
-      position: absolute;
-      left: calc(50% - 12px);
-      top: calc(50% - 30px);
-      z-index: 10; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003311}}
-    section.dignity .scales .scales-2 {
-      position: absolute;
-      left: calc(50% - 23px);
-      z-index: 5;
-      top: 7px;
-      transform: rotate(-20deg);
-      visibility: visible !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003318}}
-      section.dignity .scales .scales-2.animated {
-        animation: scale2 1s linear 6 forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003322}}
-    section.dignity .scales .scales-3 {
-      position: absolute;
-      top: 25px;
-      left: 15px;
-      z-index: 10;
-      visibility: visible !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003328}}
-      section.dignity .scales .scales-3.animated {
-        animation: scale3 1s linear 6 forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003333}}
-    section.dignity .scales .scales-4 {
-      position: absolute;
-      top: 13px;
-      left: 50px;
-      z-index: 10;
-      visibility: visible !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003339}}
-      section.dignity .scales .scales-4.animated {
-        animation: scale4 1s linear 6 forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003344}}
-  section.dignity .list-left {
-    padding-right: 150px;
-    text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003347}}
-    section.dignity .list-left h3 {
-      position: relative;
-      margin-right: -70px;
-      padding-bottom: 30px;
-      font-family: RobotoSlabRegular;
-      font-size: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003353}}
-      section.dignity .list-left h3::before {
-        content: "";
-        width: 150px;
-        border-top: 1px solid #bfc942;
-        position: absolute;
-        top: 28px;
-        left: -15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003363}}
-  section.dignity .list-right {
-    padding-left: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003365}}
-    section.dignity .list-right h3 {
-      position: relative;
-      margin-left: -70px;
-      padding-bottom: 30px;
-      font-family: RobotoSlabRegular;
-      font-size: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003371}}
-      section.dignity .list-right h3::after {
-        content: "";
-        width: 150px;
-        border-top: 1px solid #c8a641;
-        position: absolute;
-        top: 28px;
-        right: -15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003381}}
-  section.dignity .item {
-    margin-bottom: 50px;
-    font-size: 16px;
-    font-family: RobotoRegular;
-    opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003386}}
-    section.dignity .item.item-left-1 {
-      position: relative;
-      animation: fadeLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003389}}
-      section.dignity .item.item-left-1::after {
-        content: url("../images/item-left-1.png");
-        position: absolute;
-        top: 5px;
-        right: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003396}}
-    section.dignity .item.item-left-2 {
-      position: relative;
-      animation: fadeLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003399}}
-      section.dignity .item.item-left-2::after {
-        content: url("../images/item-left-2.png");
-        position: absolute;
-        top: 5px;
-        right: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003406}}
-    section.dignity .item.item-left-3 {
-      position: relative;
-      animation: fadeLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003409}}
-      section.dignity .item.item-left-3::after {
-        content: url("../images/item-left-3.png");
-        position: absolute;
-        top: 5px;
-        right: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003416}}
-    section.dignity .item.item-left-4 {
-      position: relative;
-      animation: fadeLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003419}}
-      section.dignity .item.item-left-4::after {
-        content: url("../images/item-left-4.png");
-        position: absolute;
-        top: 5px;
-        right: -115px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003426}}
-    section.dignity .item.item-left-5 {
-      position: relative;
-      animation: fadeLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003429}}
-      section.dignity .item.item-left-5::after {
-        content: url("../images/item-left-5.png");
-        position: absolute;
-        top: 5px;
-        right: -115px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003436}}
-    section.dignity .item.item-right-1 {
-      position: relative;
-      animation: fadeRight 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003439}}
-      section.dignity .item.item-right-1::before {
-        content: url("../images/item-right-1.png");
-        position: absolute;
-        top: 5px;
-        left: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003446}}
-    section.dignity .item.item-right-2 {
-      position: relative;
-      animation: fadeRight 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003449}}
-      section.dignity .item.item-right-2::before {
-        content: url("../images/item-right-2.png");
-        position: absolute;
-        top: 5px;
-        left: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003456}}
-    section.dignity .item.item-right-3 {
-      position: relative;
-      animation: fadeRight 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003459}}
-      section.dignity .item.item-right-3::before {
-        content: url("../images/item-right-3.png");
-        position: absolute;
-        top: 5px;
-        left: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003466}}
-    section.dignity .item.item-right-4 {
-      position: relative;
-      animation: fadeRight 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003469}}
-      section.dignity .item.item-right-4::before {
-        content: url("../images/item-right-4.png");
-        position: absolute;
-        top: 5px;
-        left: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003476}}
-    section.dignity .item.item-right-5 {
-      position: relative;
-      animation: fadeRight 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003479}}
-      section.dignity .item.item-right-5::before {
-        content: url("../images/item-right-5.png");
-        position: absolute;
-        top: 5px;
-        left: -100px; }
+h1 { font-size: 48px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003491}}
-section.green-band h1 {
-  position: relative;
-  font-family: RobotoSlabRegular;
-  font-size: 30px;
-  padding: 30px 200px 20px 200px;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003497}}
-  section.green-band h1::before {
-    content: "";
-    width: 150px;
-    border-top: 1px solid #ffffff;
-    position: absolute;
-    top: 70px;
-    left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003505}}
-  section.green-band h1::after {
-    content: "";
-    width: 150px;
-    border-top: 1px solid #ffffff;
-    position: absolute;
-    top: 70px;
-    right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003514}}
-section.green-band a {
-  color: #010101; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003516}}
-  section.green-band a.button {
-    background-color: #ffffff;
-    margin: 0 auto 38px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003519}}
-    section.green-band a.button:hover {
-      background-color: #ebebeb; }
+h1, h2, h3, h4, h5 { margin: 0; padding: 0; line-height: 1; }
 
-@keyframes fadeLeft {
-  0% {
-    opacity: 0;
-    left: -400px; }
-  100% {
-    opacity: 1;
-    left: 0; } }
-@keyframes fadeRight {
-  0% {
-    opacity: 0;
-    right: -400px; }
-  100% {
-    opacity: 1;
-    right: 0; } }
-@keyframes scale2 {
-  0% {
-    transform: rotate(-20deg); }
-  25% {
-    transform: rotate(0deg); }
-  50% {
-    transform: rotate(20deg); }
-  75% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(-20deg); } }
-@keyframes scale3 {
-  0% {
-    top: 25px; }
-  25% {
-    top: 20px; }
-  50% {
-    top: 13px; }
-  75% {
-    top: 20px; }
-  100% {
-    top: 25px; } }
-@keyframes scale4 {
-  0% {
-    top: 13px; }
-  25% {
-    top: 20px; }
-  50% {
-    top: 25px; }
-  75% {
-    top: 20px; }
-  100% {
-    top: 13px; } }
+input { outline: none; }
+
+main { min-height: calc(100vh - 732px); }
+
+/*********** END Common ***********/
+header { 
+	height: 143px; 
+	position: relative; 
+}
+
+header .row {
+	position: relative;
+	height: 143px;
+}
+
+header.header-index {
+	height: 433px;
+}
+
+header.header-index .row {
+	height: 433px;
+}
+
+header .banner {
+	display: none;
+}
+
+header.header-index .banner {
+	display: block;
+	height: 285px;
+	width: 100%;
+	position: absolute;
+	top: 88px;
+}
+
+.banner .device-1 { position: absolute; width: 115px; height: 120px; top: 47px; left: 2px; }
+.banner .device-2 { position: absolute; width: 135px; height: 108px; top: 150px; left: 22px; }
+.banner .device-3 { position: absolute; width: 170px; height: 152px; top: 20px; left: 135px; z-index: 100; }
+.banner .device-4 { position: absolute; width: 119px; height: 106px; top: 146px; left: 236px; }
+.banner .device-5 { position: absolute; width: 60px; height: 50px; top: 102px; left: 299px; }
+.banner .device-6 { position: absolute; width: 60px; height: 60px; top: 31px; left: 335px; }
+.banner .device-7 { position: absolute; width: 151px; height: 126px; top: 112px; left: 359px; }
+.banner .device-8 { position: absolute; width: 118px; height: 63px; top: 61px; left: 407px; }
+.banner .device-9 { position: absolute; width: 55px; height: 52px; top: 0px; left: 419px; }
+.banner .device-10 { position: absolute; width: 61px; height: 66px; top: 19px; left: 483px; }
+.banner .device-11 { position: absolute; width: 130px; height: 125px; top: 77px; left: 525px; }
+.banner .device-12 { position: absolute; width: 64px; height: 49px; top: 23px; left: 553px; }
+.banner .device-13 { position: absolute; width: 50px; height: 55px; top: 23px; left: 628px; }
+.banner .device-14 { position: absolute; width: 80px; height: 56px; top: 168px; left: 616px; }
+.banner .device-15 { position: absolute; width: 65px; height: 53px; top: 129px; left: 657px; }
+.banner .device-16 { position: absolute; width: 74px; height: 75px; top: 30px; left: 667px; }
+.banner .device-17 { position: absolute; width: 75px; height: 89px; top: 67px; left: 708px; }
+.banner .device-18 { position: absolute; width: 98px; height: 77px; top: 14px; left: 737px; }
+.banner .device-19 { position: absolute; width: 96px; height: 98px; top: 120px; left: 734px; }
+
+header .top-header {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	left: 0;
+}
+
+header .top-header .logo img {
+	width: 237px;
+	height: 75px;
+}
+
+header .slogan {
+	font-family: Rubik-Light;
+	font-size: 12px;
+	left: 246px;
+	top: 25px;
+	position: absolute;
+	font-weight: 300;
+	line-height: 140%;
+}
+
+header .phone {
+	position: absolute;
+	left: 420px;
+	top: 21px;
+	padding-left: 35px;
+	display: flex;
+	flex-direction: column;
+}
+
+header .phone:before {
+	content: url('../images/phone-icon-red.png');
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 25px;
+	height: 25px;
+}
+
+header .phone span {
+	font-family: Rubik-Medium;
+	font-weight: 500;
+	font-size: 24px;
+	color: #F5171D;
+	line-height: 28px;
+}
+
+header .phone a {
+	font-size: 14px;
+	text-decoration: underline;
+	color: #0075E9;
+	line-height: 17px;
+}
+
+header.header-index .phone {
+	left: 487px;
+}
+
+header .time-work {
+	position: absolute;
+	left: 674px;
+	top: 27px;
+	display: flex;
+	flex-direction: column;
+}
+
+header .time-work span {
+	font-size: 12px;
+	line-height: 14px;
+	color: #172029;
+	font-family: Rubik-Light;
+	font-weight: 300;
+	margin-bottom: 9px;
+}
+
+header.header-index .time-work {
+	left: auto;
+	right: 0;
+}
+
+header .mini-display-basket {
+	background-image: url('../images/display-cart.png');
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: 76px;
+	padding-top: 23px;
+}
+
+header .mini-display-basket .quantity {
+	font-family: Rubik-Light;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	padding-left: 40px;
+}
+
+header .mini-display-basket .amount {
+	font-family: Montserrat-Bold;
+	font-size: 12px;
+	line-height: 15px;
+	color: #3DDF62;
+	padding-left: 40px;
+}
+
+header .mini-display-basket::before {
+	content: '';
+	position: absolute;
+	top: 27px;
+	left: 11px;
+	width: 22px;
+	height: 20px;
+	background-image: url('../images/cart-icon-green.png');
+	background-size: 100% 100%;
+}
+
+header.header-index .mini-display-basket {
+	display: none;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	height: 46px;
+	width: 100%;
+	background: linear-gradient(92.42deg, #0172FF 0%, #03C5FE 100%);
+	border-radius: 15px;
+}
+
+footer { 
+	height: 138px; 
+	background-color: #37474F; 
+}
+
+.content { 
+	width: 1150px; 
+	background-color: #ffffff; 
+	height: 100vh; 
+	margin: 0 auto; 
+	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+/*********** Media Style **********/
 @media (min-width: 1920px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003603}}
-  body {
-    max-width: 1920px;
-    margin: 0 auto;
-    position: relative; } }
+    body {
+	    max-width: 1920px;
+	    margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container { max-width: 1090px; }
+}
+
 @media (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003611}}
-  .bg-image-auto, .bg-image-green {
-    display: none; }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003613}}
-  section.questions {
-    height: 700px;
-    background-image: url("../images/question-bg.jpg");
-    background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003617}}
-    section.questions .consultation {
-      height: 203px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003619}}
-      section.questions .consultation::after {
-        bottom: -50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003625}}
-    section.questions .bubbles-questions .bubble.bubble-1 {
-      left: -34px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003628}}
-    section.questions .bubbles-questions .bubble.bubble-3 {
-      left: 330px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003631}}
-    section.questions .bubbles-questions .bubble.bubble-4 {
-      left: 265px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003634}}
-    section.questions .bubbles-questions .bubble.bubble-5 {
-      left: 525px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003637}}
-    section.questions .bubbles-questions .bubble.bubble-7 {
-      right: 30px; }
+@media (max-width: 900px) {
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003645}}
-  section.dignity .list-left h3::before {
-    display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003648}}
-  section.dignity .list-right h3::after {
-    display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003653}}
-  section.green-band {
-    background-image: url("../images/green-bg.jpg");
-    background-size: cover; } }
-@media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003660}}
-  header {
-    height: 105px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003663}}
-  section.questions {
-    height: 370px;
-    margin-top: -105px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003666}}
-    section.questions .bubbles-questions {
-      display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003669}}
-    section.questions .consultation {
-      top: 103px;
-      height: 267px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003672}}
-      section.questions .consultation::after {
-        bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003675}}
-      section.questions .consultation h1 {
-        font-size: 33px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003681}}
-  section.dignity .list-left h3, section.dignity .list-right h3 {
-    height: 140px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003684}}
-  section.dignity .item-left, section.dignity .item-right {
-    margin-left: -20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003688}}
-  section.dignity .item.item-right-1, section.dignity .item.item-left-4 {
-    margin-bottom: 95px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003691}}
-  section.dignity .item.item-right-2 {
-    margin-bottom: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003694}}
-  section.dignity .item.item-left-3 {
-    margin-bottom: 75px; } }
 @media (max-width: 576px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003702}}
-  header {
-    height: 160px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003704}}
-    header .menu a {
-      margin: 0 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003706}}
-      header .menu a::after {
-        display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003710}}
-    header .logo, header .description {
-      margin-top: 10px;
-      margin-left: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003714}}
-    header .number-phone {
-      margin: 0 auto; }
+    .container { width: 78%; margin: 0 11%; }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003719}}
-  section.questions {
-    margin-top: -160px;
-    height: 485px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003721}}
-    section.questions .consultation {
-      top: 159px;
-      height: 328px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003724}}
-      section.questions .consultation::after {
-        bottom: 0px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003730}}
-  section.dignity {
-    padding-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003732}}
-    section.dignity .scales {
-      display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003735}}
-    section.dignity .list-left h3 {
-      height: 100px;
-      text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003739}}
-    section.dignity .list-right h3 {
-      height: 80px;
-      text-align: left;
-      margin-left: -130px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003744}}
-    section.dignity .item {
-      margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003746}}
-      section.dignity .item.item-right-1, section.dignity .item.item-right-2, section.dignity .item.item-right-3, section.dignity .item.item-right-4 {
-        margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003749}}
-      section.dignity .item.item-left-1::after, section.dignity .item.item-left-2::after, section.dignity .item.item-left-3::after, section.dignity .item.item-left-4::after, section.dignity .item.item-left-5::after {
-        top: calc(50% - 20px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003752}}
-      section.dignity .item.item-right-1::before, section.dignity .item.item-right-2::before, section.dignity .item.item-right-3::before, section.dignity .item.item-right-4::before, section.dignity .item.item-right-5::before {
-        top: calc(50% - 20px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003755}}
-      section.dignity .item.item-right-1, section.dignity .item.item-left-4 {
-        margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003758}}
-      section.dignity .item.item-right-2 {
-        margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003761}}
-      section.dignity .item.item-left-3 {
-        margin-bottom: 25px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003768}}
-  section.green-band h1 {
-    padding: 20px 5px 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003770}}
-    section.green-band h1::before, section.green-band h1::after {
-      display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003774}}
-  section.green-band a.button {
-    margin-top: 15px; } }
 @media (max-width: 360px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003781}}
-  header {
-    height: 235px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003783}}
-    header .menu {
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 6px;
-      height: 135px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003788}}
-      header .menu a {
-        display: block;
-        height: 29px;
-        font-size: 16px;
-        line-height: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003795}}
-    header .number-phone {
-      display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003800}}
-  section.questions {
-    height: 580px;
-    margin-top: -231px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003803}}
-    section.questions .consultation {
-      height: 350px;
-      top: 230px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003806}}
-      section.questions .consultation::after {
-        bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003809}}
-      section.questions .consultation h1 {
-        font-size: 27px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003816}}
-  section.dignity .list-left {
-    padding-right: 90px;
-    text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003819}}
-    section.dignity .list-left h3 {
-      font-size: 22px;
-      height: 65px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003824}}
-  section.dignity .list-right {
-    padding-right: 90px;
-    text-align: left;
-    padding-left: 33px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003828}}
-    section.dignity .list-right h3 {
-      font-size: 22px;
-      margin-left: -21px;
-      height: 120px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003834}}
-  section.dignity .item-left {
-    margin-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003838}}
-  section.dignity .item.item-left-1::after, section.dignity .item.item-left-2::after, section.dignity .item.item-left-3::after, section.dignity .item.item-left-4::after, section.dignity .item.item-left-5::after {
-    right: -75px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003843}}
-  section.dignity .item.item-right-1::before, section.dignity .item.item-right-2::before, section.dignity .item.item-right-3::before, section.dignity .item.item-right-4::before, section.dignity .item.item-right-5::before {
-    left: 250px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003848}}
-  section.dignity .item.item-right-1, section.dignity .item.item-left-4 {
-    margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003851}}
-  section.dignity .item.item-right-2 {
-    margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003854}}
-  section.dignity .item.item-left-3 {
-    margin-bottom: 25px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ekaterina\/Desktop\/Sotnikov\/css\/style\.scss}line{font-family:\00003860}}
-  section.green-band h1 {
-    font-size: 27px; } }
-
-/*# sourceMappingURL=style.css.map */
+} 
+/************ END Media Style ******/
