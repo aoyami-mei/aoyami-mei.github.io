@@ -135,25 +135,44 @@ header.header-index .banner {
 	top: 88px;
 }
 
-.banner .device-1 { position: absolute; width: 115px; height: 120px; top: 47px; left: 2px; }
+.banner .device-1 { position: absolute; width: 114px; height: 120px; top: 47px; left: 2px; }
+
 .banner .device-2 { position: absolute; width: 135px; height: 108px; top: 150px; left: 22px; }
-.banner .device-3 { position: absolute; width: 170px; height: 152px; top: 20px; left: 135px; z-index: 100; }
-.banner .device-4 { position: absolute; width: 119px; height: 106px; top: 146px; left: 236px; }
-.banner .device-5 { position: absolute; width: 60px; height: 50px; top: 102px; left: 299px; }
-.banner .device-6 { position: absolute; width: 60px; height: 60px; top: 31px; left: 335px; }
-.banner .device-7 { position: absolute; width: 151px; height: 126px; top: 112px; left: 359px; }
-.banner .device-8 { position: absolute; width: 118px; height: 63px; top: 61px; left: 407px; }
+
+.banner .device-3 { position: absolute; width: 170px; height: 154px; top: 20px; left: 135px; z-index: 100; }
+
+.banner .device-4 { position: absolute; width: 120px; height: 116px; top: 146px; left: 236px; }
+
+.banner .device-5 { position: absolute; width: 60px; height: 52px; top: 102px; left: 299px; }
+
+.banner .device-6 { position: absolute; width: 60px; height: 61px; top: 31px; left: 335px; }
+
+.banner .device-7 { position: absolute; width: 151px; height: 128px; top: 112px; left: 359px; }
+
+.banner .device-8 { position: absolute; width: 118px; height: 66px; top: 61px; left: 407px; }
+
 .banner .device-9 { position: absolute; width: 55px; height: 52px; top: 0px; left: 419px; }
-.banner .device-10 { position: absolute; width: 61px; height: 66px; top: 19px; left: 483px; }
+
+.banner .device-10 { position: absolute; width: 61px; height: 72px; top: 19px; left: 483px; }
+
 .banner .device-11 { position: absolute; width: 130px; height: 125px; top: 77px; left: 525px; }
+
 .banner .device-12 { position: absolute; width: 64px; height: 49px; top: 23px; left: 553px; }
+
 .banner .device-13 { position: absolute; width: 50px; height: 55px; top: 23px; left: 628px; }
+
 .banner .device-14 { position: absolute; width: 80px; height: 56px; top: 168px; left: 616px; }
+
 .banner .device-15 { position: absolute; width: 65px; height: 53px; top: 129px; left: 657px; }
-.banner .device-16 { position: absolute; width: 74px; height: 75px; top: 30px; left: 667px; }
-.banner .device-17 { position: absolute; width: 75px; height: 89px; top: 67px; left: 708px; }
-.banner .device-18 { position: absolute; width: 98px; height: 77px; top: 14px; left: 737px; }
-.banner .device-19 { position: absolute; width: 96px; height: 98px; top: 120px; left: 734px; }
+
+.banner .device-16 { position: absolute; width: 65px; height: 66px; top: 30px; left: 667px; }
+
+.banner .device-17 { position: absolute; width: 75px; height: 88px; top: 67px; left: 708px; }
+
+.banner .device-18 { position: absolute; width: 98px; height: 75px; top: 14px; left: 737px; }
+
+.banner .device-19 { position: absolute; width: 96px; height: 99px; top: 120px; left: 734px; }
+
 
 header .top-header {
 	position: absolute;
