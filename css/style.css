@@ -133,6 +133,8 @@ header.header-index .banner {
 	width: 100%;
 	position: absolute;
 	top: 88px;
+	background-image: url('../images/banner-bg.png');
+	background-size: cover;
 }
 
 .banner .device-1 { position: absolute; width: 114px; height: 120px; top: 47px; left: 2px; }
