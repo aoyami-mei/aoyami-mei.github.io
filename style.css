@@ -232,4 +232,6 @@ h1 {
 	.about { margin-bottom: 40px; }
 
 	.info p { text-align: justify; }
+
+	.wrap-img { width: 80%; }
 }
