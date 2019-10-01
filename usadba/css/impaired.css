@@ -1,0 +1,241 @@
+.vision_panel {
+    position: relative;
+    z-index: 165;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: max-height .3s, padding .3s, opacity .3s;
+    transition: max-height .3s, padding .3s, opacity .3s;
+}
+
+.impaired_version .vision_panel {
+	max-height: 64px;
+	padding: 9px 0;
+	opacity: 1;
+	background-color: #efeff4;
+}
+
+.vision_panel .fontsize_selection {
+    display: flex;
+    margin: 0 30px 0 0;
+    align-items: flex-end;
+}
+
+.vision_panel .fontsize_selection i {
+	font-size: 28px;
+	position: relative;
+	top: -4px;
+	padding-right: 8px;
+}
+
+.vision_panel .fontsize_selection div,
+.vision_panel .image_selection div {
+	font-weight: 700;
+    font-size: 20px;
+	line-height: 29px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.vision_panel .fontsize_selection ul {
+	display: inline-block;
+	vertical-align: middle;
+	vertical-align: bottom;
+}
+
+.vision_panel .fontsize_selection li {
+	margin: 0 1px;
+	display: inline-block;
+	cursor: pointer;
+	color: #666;
+    font-family: PTSans-Regular;
+    font-weight: normal;
+}
+
+.vision_panel .font_size_large {font-size: 36px;}
+.vision_panel .font_size_medium {font-size: 30px;}
+.vision_panel .font_size_small {font-size: 24px;}
+
+.vision_panel .image_selection {
+    display: flex;
+    align-items: flex-end;
+    height: 25px;
+}
+
+.vision_panel .image_selection i {
+	font-size: 28px;
+	padding-right: 4px;
+	position: relative;
+	top: -2px;
+}
+
+.impaired_version  #image_trigger {display: none;}
+
+.impaired_version #image_trigger + label {
+	display: inline-block;
+	vertical-align: top;
+    height: 25px;
+    line-height: 23px;
+    border-radius: 3px;
+    background-color: #fff; 
+	color: #565867;
+    width: 90px;
+    text-align: left;
+    padding: 0 5px;
+    border: 1px solid #c4c4c4;
+    position: relative;
+	text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.impaired_version  #image_trigger + label:before {
+	float: right;
+	color: #000 !important;
+}
+
+.impaired_version  #image_trigger:checked + label:before {
+	float: left;
+	color: #000 !important;
+}
+
+.impaired_version #image_trigger + label:after {
+    content: "";
+    width: 34px;
+    background-color: #333;
+    height: 13px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.impaired_version #image_trigger:checked + label:after {
+    -ms-transform: translateX(34px);
+    transform: translateX(44px);
+}
+
+.impaired_version .menu-desc, .impaired_version .section-title .green-line {
+	background-color: #000000;
+}
+
+.impaired_version .section-gallery, .impaired_version .section-plan .museum-360, .impaired_version .section-contacts .green-background  {
+	background-color: #484848;
+}
+
+.impaired_version .center-event .date-event .number::after {
+    border-right: 20px solid #484848;
+    border-bottom: 20px solid #484848;
+}
+
+.impaired_version .button-all-expo:hover, .impaired_version .section-title h2, .impaired_version .one-new:hover .text-new, .impaired_version .link-news {
+    color: #000000;
+}
+
+.impaired_version .section-main-slider {
+	background-color: #efeff4;
+}
+
+.impaired_version .bg-company {
+	background-color: #e8e8e8;
+}
+
+.impaired_version .section-about-company .mini-content-company .link-about-company a {
+	border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+.impaired_version .main-slider .slick-slide img, .impaired_version .one-event .photo-event img, .impaired_version .plan-museum img, .impaired_version footer .top-footer a, .impaired_version .one-new .photo-new img {
+	filter: grayscale(1);
+}
+
+.impaired_version .section-plan .plan-museum span { z-index: 100; color: #000000; }
+
+.impaired_version .link-news { border-bottom: 2px solid #000000; }
+
+.impaired_version .cont-info-tel::before {
+	content: url('../images/imp-header-icon-1.png');
+}
+
+.impaired_version .cont-info-address::before {
+    content: url(../images/imp-header-icon-2.png);
+}
+
+.impaired_version .cont-info-email::before {
+    content: url(../images/imp-header-icon-5.png);
+}
+
+.impaired_version .button-menu::before {
+    content: url('../images/imp-header-icon-4.png');
+}
+
+.eye {
+    position: absolute;
+    right: 153px;
+    top: 54px;
+    width: 19px;
+    height: 15px;
+}
+
+.eye::before {     
+	content: url(../images/header-icon-3.png);
+    width: 19px;
+    height: 15px;
+    position: absolute; 
+}
+
+.image_selection .camera {
+    margin-right: 15px;
+}
+
+.image_selection .camera-off {
+    margin-left: 15px;
+}
+
+.vision_panel .middle {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.impaired_version .eye::before {     
+	content: url(../images/imp-header-icon-3.png);
+}
+
+.impaired_version .wrapper-main-slider .arrows-main-slider .prevArrow {
+	background-image: url(../images/prev-arrow-black.png);
+}
+
+.impaired_version .wrapper-main-slider .arrows-main-slider .nextArrow {
+	background-image: url(../images/next-arrow-black.png);
+}
+
+.impaired_version header .cont-info.button-menu:hover, .impaired_version .wrapper-main-slider .pagination ul.slick-dots li.slick-active::first-letter {
+    color: #000000;
+}
+
+.impaired_version .section-contacts .wrapper-map { background-image: url(../images/imp-map.jpg); }
+
+.impaired_version .content-menu .title-menu { border-bottom: 1px solid transparent; }
+
+.impaired_version .right-info-img { background-image: url('../images/imp-right-photo-slider.png'); }
+
+.impaired_version .decor-img { background-image: url('../images/imp-decor.png'); }
+
+.impaired_version .ornament-img { background-image: url('../images/imp-ornament.png'); }
+
+.impaired_version.no_pics .ornament-img, .impaired_version.no_pics .section-plan .museum-360 img { display: none; }
+
+.impaired_version .photo-event, .impaired_version .photo-new, .impaired_version .plan-museum, .impaired_version .wrapper-main-slider { background-color: #808080; }
+
+.impaired_version.no_pics .photo-event img, .impaired_version.no_pics .photo-new img, .impaired_version.no_pics .plan-museum img, .impaired_version.no_pics .wrapper-main-slider .main-slider, 
+.impaired_version.no_pics .arrows-main-slider, .impaired_version.no_pics .picture-house { opacity: 0; }
+

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="area.size" content="width=100%,height=100%">
+
+        <title>Реализация активов</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/burger.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.theme.css"/>
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css"/>
+        <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/set2.css"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/jquery.formstyler.min.js"></script>
+        <script type="text/javascript" src="js/classie.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.mousewheel.js"></script>
+        <script src="js/mwheelIntent.js"></script>
+        <script src="js/jquery.jscrollpane.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body class="introducing nav-closed secondary">
+        <div id="burger" class="hidden-mobile">
+            <div class="burger-wrapper">
+                <span class="burger-span">
+                    <span class="burger-block"></span>
+                </span>
+                <span class="burger-span">
+                    <span class="burger-block"></span>
+                </span>
+                <span class="burger-span">
+                    <span class="burger-block"></span>
+                </span>
+                <span class="burger-span tn-introducer last" data-tn-intro-useanim="true">
+                    <span class="burger-block"></span>
+                </span>
+            </div>
+            <svg class="close-vector closer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                <line stroke-width="5" x1="5" y1="5" x2="25" y2="25" class="close-line top-left-line"></line>
+                <line stroke-width="5" x1="25" y1="5" x2="5" y2="25" class="close-line top-right-line"></line>
+            </svg>
+        </div>     
+        <header class="hidden-mobile">
+            <div class="container">
+                <div class="row">
+                    <div id="pseudo-burger">
+                    </div>                    
+                    <ul class="col-lg-6">
+                        <li class="menu">Меню</li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Партнерам и инвесторам</a></li>
+                        <li><a href="#">О лизинге</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <header class="header-mobile visible-index-mobile">
+            <div class="container">
+                <div class="row">
+                    <a href="index.html" class="logotype">
+                        <img src="images/white-logo.png">
+                        <p class="gk color-white">Группа компаний</p>
+                        <p class="pl color-white">Поволжский Лизинг</p>
+                    </a>
+                </div>
+                <div class="row buttons">
+                    <div><img src="images/button-menu-mobile.png"></div>
+                    <a href="#pop-up_login" class="color-black magnific-popup-open"><div><img src="images/button-login-mobile.png"></div></a>
+                    <a href="tel:+78452650807"><div><img src="images/button-phone-mobile.png"></div></a>
+                </div>
+                <div class="header-bottom-mobile">
+                    <div class="color-white">График платежей</div>
+                    <div class="color-white">на ваших условиях</div>
+                    <div class="button"><span>Оставить заявку</span></div>
+                    <div class="slider-fractions-mobile fractions"> 
+                        <div class="fraction">
+                            <span class="numerator">1</span>
+                            <span class="dash"></span>
+                            <span class="denominator">3</span>
+                        </div>
+                        <div class="fraction">
+                            <span class="numerator">7</span>
+                            <span class="dash"></span>
+                            <span class="denominator">8</span>
+                        </div>
+                        <div class="fraction">
+                            <span class="numerator">3</span>
+                            <span class="dash"></span>
+                            <span class="denominator">5</span>
+                        </div>
+                        <div class="fraction">
+                            <span class="numerator">5</span>
+                            <span class="dash"></span>
+                            <span class="denominator">7</span>
+                        </div>
+                    </div>
+                    <div class="nextArrow-mobile nextArrow"><img src="images/arrow-up-fraction-white.png"></div>
+                    <div class="prevArrow-mobile prevArrow"><img src="images/arrow-down-fraction-white.png"></div>
+                </div>
+            </div>
+        </header>
+
+        <header class="header-mobile visible-secondary-mobile">
+            <div class="container">
+                <div class="row">
+                   <a href="index.html" class="logotype">
+                        <img src="images/white-logo.png">
+                        <p class="gk color-white">Группа компаний</p>
+                        <p class="pl color-white">Поволжский Лизинг</p>
+                    </a>
+                </div>
+                <div class="row buttons">
+                    <div class="button-mobile-menu"><img src="images/button-menu-mobile.png"></div>
+                    <a href="#pop-up_login" class="color-black magnific-popup-open"><div><img src="images/button-login-mobile.png"></div></a>
+                    <a href="tel:+78452650807"><div><img src="images/button-phone-mobile.png"></div></a>
+                </div>
+                <div class="header-bottom-mobile">
+                    <div class="color-white">Реализация активов</div>
+                </div>
+            </div>
+        </header>
+
+        <article id="menu" class="menu closed-menu">
+            <div class="container">
+                <div class="row top-row">
+                    <div class="logo">
+                         <a href="index.html"><img src="images/logo.png"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="pl-contact.html#contact-us" class="dashed-blue color-blue">Связаться с нами</a>
+                        <div>8 (8452) 65-08-07</div>
+                    </div>
+                    <div class="address">
+                        <div class="color-blue">Адрес:</div>
+                        <div>г. Саратов, Большая Затонская 23</div>
+                    </div>
+                    <div class="time">
+                        <div class="color-blue">Время работы:</div>
+                        <div>пн-пт: 09:00–17:00; сб,вс - вых</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row middle-row">
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">О компании</a>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">Партнерам и инвесторам</a>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">О лизинге</a>
+                        <div class="small-item">
+                            <a href="#" class="color-gray">Преимущества лизинга</a>
+                            <a href="#" class="color-gray">Частые вопросы</a>
+                        </div>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-blac caption-category">Контакты</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row middle-row bottom-row">
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">Лизинговые программы</a>
+                        <div class="small-item">
+                            <a href="#" class="color-gray">Легковой автотранспорт</a>
+                            <a href="#" class="color-gray">Грузовой автотранспорт и спецтехника</a>
+                            <a href="#" class="color-gray">Сельхозтехника</a>
+                            <a href="#" class="color-gray">Суда</a>
+                            <a href="#" class="color-gray">Недвижимость</a>
+                        </div>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">Реализация активов</a>
+                        <div class="small-item">
+                            <a href="#" class="color-gray">Б/у техника</a>
+                            <a href="#" class="color-gray">МАЗ в лизинг</a>
+                            <a href="#" class="color-gray">С/х техника в лизинг без переплаты</a>
+                            <a href="#" class="color-gray">Работа по 44-ФЗ и 223-ФЗ</a>
+                        </div>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">Работа с нами</a>
+                        <div class="small-item">
+                            <a href="#" class="color-gray">Наши преимущества</a>
+                        </div>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">Наши проекты</a>
+                    </div>
+                    <div class="mini-vert-line"></div>
+                    <div class="category">
+                        <a href="#" class="color-black caption-category">Информация</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="mobile-menu" class="mobile-menu mobile-closed-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <img class="logo" src="images/logo.png">
+                        <div class="button-close">
+                            <img src="images/close-mobile-menu.png">
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div class="phone">
+                            <div>8 (8452) 65-08-07</div>
+                        </div>
+                        <div class="address">
+                            <div>г. Саратов, Большая Затонская 23</div>
+                        </div>
+                        <div class="time">
+                            <div>пн-пт: 09:00–17:00; сб,вс - вых</div>
+                        </div>
+                    </div>
+                    <hr>
+                
+                    <div class="padd"><a href="#" class="color-black big-link">О компании</a></div>
+                    <div class="padd"><a href="#" class="color-black big-link">Партнерам и инвесторам</a></div>
+                    <div><a href="#" class="color-black big-link">О лизинге</a></div>
+                    <a href="#" class="color-gray small-link">Преимущества лизинга</a>
+                    <div><a href="#" class="color-black big-link">Контакты</a></div>
+
+                    <hr>
+                
+                    <div><a href="#" class="color-black big-link padd">Лизинговые программы</a></div>
+                    <a href="#" class="color-gray small-link">Легковой автотранспорт</a>
+                    <a href="#" class="color-gray small-link">Грузовой автотранспорт и спецтехника</a>
+                    <a href="#" class="color-gray small-link">Сельхозтехника</a>
+                    <a href="#" class="color-gray small-link">Суда</a>
+                    <a href="#" class="color-gray small-link">Недвижимость</a>
+                    <a href="#" class="color-gray small-link">Б/у техника</a>
+                    <a href="#" class="color-gray small-link">МАЗ в лизинг</a>
+                    <a href="#" class="color-gray small-link">С/х техника в лизинг без переплаты</a>
+                    <a href="#" class="color-gray small-link padd">Работа по 44-ФЗ и 223-ФЗ</a>
+                    <div class="padd"><a href="#" class="color-black big-link">Продажа изъятого имущества</a></div>
+                    <div><a href="#" class="color-black big-link">Работа с нами</a></div>
+                    <a href="#" class="color-gray small-link padd">Наши преимущества</a>
+                    <div class="padd"><a href="#" class="color-black big-link">Наши проекты</a></div>
+                    <div><a href="#" class="color-black big-link">Информация</a></div>
+                    
+                </div>
+            </div>
+        </article>
+
+        <main>
+            <section class="main-block hidden-mobile">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-row">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png"></a>
+                            </div>
+                            <div class="phone">
+                                <a href="#" class="dashed-blue color-blue lk">Личный кабинет</a>
+                                <a href="#pop-up_login" class="color-black magnific-popup-open">Войти</a>
+                            </div>
+                            <div class="phone">
+                                <a href="#" class="dashed-blue color-blue">Связаться с нами</a>
+                                <div>8 (8452) 65-08-07</div>
+                            </div>
+                        </div>
+                        <div class="main-row-right">
+                            <ul class="breadcrumbs">
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Реализация активов</a></li>
+                            </ul>
+                            <div class="page-caption">Реализация <br> активов</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-truck block-caption">
+                    <img class="truck" src="images/nav-bg-about-lising.png">
+                </div>
+            </section>
+
+            <section class="goods">
+                <div class="container">
+                    <div class="row good">
+                    	<div class="col-12 col-sm-3"><img src="images/good-photo-1.png"></div>
+                    	<div class="col-12 col-sm-9">
+                    		<div class="caption-good">Название товара</div>
+                    		<div class="description-good">Группа компаний “Поволжский Лизинг” предоставляет в лизинг грузовые автомобили российских и зарубежных производителей. Лизинговые программы сформированы в соответствии с запросами индивидуальных предпринимателей, субъектов малого и среднего бизнеса. Наша компания свела к минимуму список документов, требующихся для подачи заявки, и предельно упростила процедуру оценки платежеспособности предприятий-заемщиков. Наши клиенты отдадут</div>
+                    		<div class="price-button">
+                    			<div class="price">Цена: 2 000 000 руб.</div>
+                    			<a href="#pop-up_submit-applic" class="magnific-popup-open"><div class="button"><span>Оставить заявку</span></div></a>
+                    		</div>
+                    	</div>
+                     </div>
+                     <div class="row good">
+                    	<div class="col-12 col-sm-3"><img src="images/good-photo-2.png"></div>
+                    	<div class="col-12 col-sm-9">
+                    		<div class="caption-good">Название товара</div>
+                    		<div class="description-good">Группа компаний “Поволжский Лизинг” предоставляет в лизинг грузовые автомобили российских и зарубежных производителей. Лизинговые программы сформированы в соответствии с запросами индивидуальных предпринимателей, субъектов малого и среднего бизнеса. Наша компания свела к минимуму список документов, требующихся для подачи заявки, и предельно упростила процедуру оценки платежеспособности предприятий-заемщиков. Наши клиенты отдадут</div>
+                    		<div class="price-button">
+                    			<div class="price">Цена: 2 000 000 руб.</div>
+                    			<a href="#pop-up_submit-applic" class="magnific-popup-open"><div class="button"><span>Оставить заявку</span></div></a>
+                    		</div>
+                    	</div>
+                     </div>
+                     <div class="row good">
+                    	<div class="col-12 col-sm-3"><img src="images/good-photo-3.png"></div>
+                    	<div class="col-12 col-sm-9">
+                    		<div class="caption-good">Название товара</div>
+                    		<div class="description-good">Группа компаний “Поволжский Лизинг” предоставляет в лизинг грузовые автомобили российских и зарубежных производителей. Лизинговые программы сформированы в соответствии с запросами индивидуальных предпринимателей, субъектов малого и среднего бизнеса. Наша компания свела к минимуму список документов, требующихся для подачи заявки, и предельно упростила процедуру оценки платежеспособности предприятий-заемщиков. Наши клиенты отдадут</div>
+                    		<div class="price-button">
+                    			<div class="price">Цена: 2 000 000 руб.</div>
+                    			<a href="#pop-up_submit-applic" class="magnific-popup-open"><div class="button"><span>Оставить заявку</span></div></a>
+                    		</div>
+                    	</div>
+                     </div>
+                </div>
+            </section>
+
+        </main>
+        <hr class="before-footer">
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row item-padd">
+                        <div class="col-lg-3 color-blue gkpl">
+                            Группа компаний Поволжский лизинг
+                        </div>
+                        <div class="col-lg-3 color-block">
+                            Лизинговые компании
+                        </div>
+                    </div>
+                    <div class="row footer-items-menu">
+                        <div>
+                            <div class="color-blue item-padd"><a href="pl-contact.html#contact-us" class="dashed-blue">Связаться с нами</a><span class="color-black right-small">пн-пт: 09:00–17:00;</span></div>
+                            <div class="item-padd">8 (8452) 65-08-07<span class="right-small-2">сб,вс - вых</span></div>
+                            <div class="item-padd">г. Саратов, Большая Затонская 23</div>
+                        </div>
+                        <div class="color-gray">
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Легковой автотранспорт</a></div>
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Грузовой автотранспорт и спецтехника</a></div>
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Сельхозтехника</a></div>
+                        </div>
+                        <div class="color-gray">
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Суда</a></div>
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Недвижимость</a></div>
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Б/У Техника</a></div>
+                        </div>
+                        <div class="color-gray">
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Маз в лизинг</a></div>
+                            <div class="item-padd"><a href="#" class="gray-item-menu">С/Х техника в лизинг без переплаты</a></div>
+                            <div class="item-padd"><a href="#" class="gray-item-menu">Работа по 44-ФЗ и 223-ФЗ</a></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 menu">
+                            <div class="column-item">
+                                <a href="#" class="menu-item-1 caption-category">О компании</a>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-2 caption-category">Партнерам и инвесторам</a>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-3 caption-category">О лизинге</a>
+                                <div class="small-item"><a href="#" class="gray-item-menu">Преимущества лизинга</a></div>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-4 caption-category">Контакты</a>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-5 caption-category">Работа с нами</a>
+                                <div class="small-item"><a href="#" class="gray-item-menu">Наши преимущества</a></div>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-6 caption-category">Реализация активов</a>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-7 caption-category">Наши проекты</a>
+                            </div>
+                            <div class="column-item">
+                                <a href="#" class="menu-item-8 caption-category">Информация</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <a href="#" class="color-white">© 2011-2018. Поволжский Лизинг. Все права защищены.</a>
+                    <a href="#" class="color-white polite">Политика конфиденциальности</a>
+                    <a href="https://www.cherepkova.ru/" target="_blank" class="color-white">Создание сайта: cherepkova.ru</a>
+                </div>
+            </div>
+        </footer>
+
+        <div id="pop-up_login" class="mfp-hide style-pop-up">
+            <div class="caption">Войти в личный кабинет</div>
+            <form>
+                <span class="input input--chisato col-12 inp-1">
+                    <input class="input__field input__field--chisato" type="text" id="input-1" required>
+                    <label class="input__label input__label--chisato" for="input-1">
+                        <span class="input__label-content input__label-content--chisato" data-content="Ваше имя">Ваше имя</span>
+                    </label>
+                </span>
+                <span class="input input--chisato col-12 inp-3">
+                    <input class="input__field input__field--chisato" type="password" id="input-3" required>
+                    <label class="input__label input__label--chisato" for="input-3">
+                        <span class="input__label-content input__label-content--chisato" data-content="Ваш e-mail">Ваш пароль</span>
+                    </label>
+                </span>
+                <span class="forget-pass">Забыли пароль?</span>
+                <div class="agree">
+                    <div class="checkbox">
+                        <div class="wrap-checkbox-1">
+                            <input type="checkbox" id="polite" checked required>
+                            <label for="polite">Согласие с <a href="">политикой конфиденциальности</a></label>
+                        </div>
+                        <div class="wrap-checkbox-2">
+                            <input type="checkbox" id="person" checked required>
+                            <label for="person">Согласие с обработкой персональных данных</label>
+                        </div>
+                    </div>
+                    <div class="wrapper-captcha">
+                        <div class="captcha">
+                            <img src="images/captcha.png">
+                        </div>
+                        <div class="button"><span>Отправить</span></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="pop-up_submit-applic" class="mfp-hide style-pop-up form-request">
+             <form>
+                 <div class="container">
+                    <div class="row">
+                        <div class="caption">Оставить заявку</div>
+                    </div>
+                    <div class="row">
+                        <div class="what-face col-12 col-sm-8 col-md-9">
+                            <div class="before-input"><span>Вы представляете</span></div>
+                            <div class="">
+                                <select class="styled">
+                                  <option data-index="0">организацию</option>
+                                  <option data-index="1">индивидуального предпринимателя</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <span class="input input--chisato col-12 col-sm-5 inp-1">
+                            <input class="input__field input__field--chisato" type="text" required>
+                            <label class="input__label input__label--chisato" for="input-1" id="label-name">
+                                <span class="input__label-content input__label-content--chisato" data-content="Наименование">Наименование</span>
+                                <span class="input__label-content input__label-content--chisato hide" data-content="ФИО">ФИО</span>
+                            </label>
+                        </span>
+                        <span class="input input--chisato col-12 col-sm-2 inp-2">
+                            <input class="input__field input__field--chisato" type="numerator" required>
+                            <label class="input__label input__label--chisato" for="input-1">
+                                <span class="input__label-content input__label-content--chisato" data-content="ИНН">ИНН</span>
+                            </label>
+                        </span>
+                        <span class="input input--chisato col-12 col-sm-5 inp-3">
+                            <input class="input__field input__field--chisato" type="text" required>
+                            <label class="input__label input__label--chisato" for="input-1">
+                                <span class="input__label-content input__label-content--chisato" data-content="ФИО контактного лица">ФИО контактного лица</span>
+                            </label>
+                        </span>
+    
+                        <span class="input input--chisato col-12 col-sm-3 inp-4">
+                            <input class="input__field input__field--chisato" type="tel" required>
+                            <label class="input__label input__label--chisato" for="input-1">
+                                <span class="input__label-content input__label-content--chisato" data-content="Контактный телефон">Контактный телефон</span>
+                            </label>
+                        </span>
+                        <span class="input input--chisato col-12 col-sm-4 inp-5">
+                            <input class="input__field input__field--chisato" type="e-mail" required>
+                            <label class="input__label input__label--chisato" for="input-1">
+                                <span class="input__label-content input__label-content--chisato" data-content="Адрес электронной почты">Адрес электронной почты</span>
+                            </label>
+                        </span>
+                        <span class="input input--chisato col-12 col-sm-5 inp-5 lock-input">
+                            <input class="input__field input__field--chisato" type="text" readonly>
+                            <label class="input__label input__label--chisato" for="input-1">
+                                <span class="input__label-content input__label-content--chisato" data-content="Спецтехника">Спецтехника</span>
+                            </label>
+                        </span>
+                    </div>
+                 </div>
+                 <div class="agree">
+                     <div class="checkbox">
+                         <div class="wrap-checkbox-1">
+                             <input type="checkbox" id="polite" checked required>
+                             <label for="polite">Согласие с <a href="#">политикой конфиденциальности</a></label>
+                         </div>
+                         <div class="wrap-checkbox-2">
+                             <input type="checkbox" id="person" checked required>
+                             <label for="person">Согласие с обработкой персональных данных</label>
+                         </div>
+                     </div>
+                     <div class="wrapper-captcha">
+                         <div class="captcha">
+                             <img src="images/captcha.png">
+                         </div>
+                         <div class="button"><span>Отправить</span></div>
+                     </div>
+                 </div>
+             </form>
+        </div>
+
+    </body>
+</html>

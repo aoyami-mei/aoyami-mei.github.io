@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="area.size" content="width=100%,height=100%">
+
+        <title>Главная</title>
+
+        <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/impaired.css">
+    </head>
+
+    <body class="impaired_version">
+
+    	<!-- Плашка для версии слабовидящих -->
+    	<div class="vision_panel">
+        	<div class="middle">
+            	<div class="fontsize_selection">
+					<i class="fa fa-text-height" aria-hidden="true"></i>
+					<ul>
+						<li class="font_size_large">А</li>
+						<li class="font_size_medium">А</li>
+						<li class="font_size_small">А</li>
+					</ul>
+				</div>
+				<div class="image_selection">
+					<img src="images/camera.png" alt="" class="camera">
+					<input type="checkbox" id="image_trigger">
+					<label for="image_trigger"></label>
+					<img src="images/camera-off.png" alt="" class="camera-off">
+				</div>
+        	</div>
+    	</div>
+
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="left-header">
+                        <div class="cont-info cont-info-tel">8(8452) 23-06-66</div>
+                        <div class="cont-info cont-info-address">г. Саратов, ул. Чернышевского, 142</div>
+                    </div>
+                    <a href="#" class="link-main"><h1>Музей-усадьба <br> Н.Г. Чернышевского</h1></a>
+                    <div class="right-header">
+                        <div class="button-menu cont-info">Открыть меню</div>
+						<div class="cont-info cont-info-email">sarusadba@yandex.ru</div>
+						<a href="#" class="eye vision_version"></a>
+						<a href="#" class="buttom-mobile-menu"><img src="images/header-icon-4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+		</header>
+		
+		<!-- Выпадающее меню для декстопных экранов -->
+		<div class="menu-desc">
+			<div class="container">
+				<div class="row">
+					<div class="content-menu">
+						<div class="close-menu"></div>
+						<a href="#" class="title-menu line-right">О музее</a>
+						<div class="menu-about-museum">
+							<div class="left-col-menu">
+								<a href="#"><img src="images/left-col-menu-1.png">Виртуальный музей <br> романа "Что делать?"</a>
+								<a href="#"><img src="images/left-col-menu-2.png">Художественная галерея <br> имени В.О. Фомичева</a>
+							</div>
+							<div class="sub-menu">
+								<a href="#">Мемориальный дом Н.Г. Чернышевского</a>
+								<a href="#">Усадебный флигель О.С. Чернышевской</a>
+								<a href="#">Дом Пыпиных</a>
+								<a href="#">Административное здание</a>
+								<a href="#">Хроника</a>
+							</div>
+							<div class="sub-menu">
+								<a href="#">О Н.Г.Чернышевском</a>
+								<a href="#">Панорамная экскурсия по музею</a>
+								<a href="#">Конкурсы и проекты</a>
+								<a href="#">Каталоги фондовых коллекций</a>
+								<a href="#">Нормативные документы</a>
+								<a href="#">Вакансии</a>
+							</div>
+						</div>
+						<a href="#" class="title-menu">Посетителям</a>
+						<a href="#" class="title-menu">Научная работа</a>
+						<a href="#" class="title-menu">Выставки и экспозиции</a>
+						<a href="#" class="title-menu">Новости</a>
+						<a href="#" class="title-menu">Контакты</a>
+						<div class="footer-menu">
+							<div>8(8452) 23-06-66</div>
+							<div>sarusadba@yandex.ru</div>
+							<div>г. Саратов, ул. Чернышевского, 142</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Выпадающее меню для мобильных экранов -->
+		<div class="menu-mobile">
+			<div class="container">
+				<div class="row">
+					<div class="content-menu-mobile">
+						<div class="close-menu-mobile"></div>
+						<div class="cat-menu">
+							<a href="#">О музее</a>
+							<a href="#">Экспозиции и выставки</a>
+							<a href="#">Новости</a>
+							<a href="#">Научная работа</a>
+							<a href="#">Посетителям</a>
+							<a href="#">Контакты</a>
+						</div>
+						<div class="mobile-ornament">
+							<img src="images/mobile-ornament-1.png">
+							<img src="images/mobile-ornament-2.png">
+						</div>
+						<div class="mobile-contacts">
+							<div class="one-contact"><img src="images/header-icon-1.png">8(8452) 23-06-66</div>
+							<div class="one-contact"><img src="images/header-icon-2.png">г. Саратов, ул. Чернышевского, 142</div>
+							<div class="one-contact"><img src="images/header-icon-5.png">sarusadba@yandex.ru</div>
+						</div>
+						<div class="social">
+							<a href="#" target="_blank"><img src="images/icon-social-1.png" alt=""></a>
+							<a href="http://www.facebook.com/sarusadba" target="_blank"><img src="images/icon-social-2.png" alt=""></a>
+							<a href="https://vk.com/sarusadba" target="_blank"><img src="images/icon-social-3.png" alt=""></a>
+							<a href="https://www.ok.ru/sarusadba" target="_blank"><img src="images/icon-social-4.png" alt=""></a>
+							<a href="https://www.youtube.com/channel/UCfWD0ONY6SZR0CP9B9nDLEw" target="_blank"><img src="images/icon-social-5.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <main>
+            <div class="section-main-slider">
+                <div class="container">
+                    <div class="row">
+                        <div class="left-info">
+                            <img src="images/left-photo-slider.png" alt="">
+						</div>
+						<div class="wrapper-main-slider">
+                        	<div class="main-slider">
+								<div><img src="images/slide-1.jpg" alt=""></div>
+                        	    <div><img src="images/slide-2.jpg" alt=""></div>
+                        	    <div><img src="images/slide-3.jpg" alt=""></div>
+                        	    <div><img src="images/slide-4.jpg" alt=""></div>
+                        	    <div><img src="images/slide-5.jpg" alt=""></div>
+                        	    <div><img src="images/slide-6.jpg" alt=""></div>
+								<div><img src="images/slide-7.jpg" alt=""></div>
+								<div><img src="images/slide-8.jpg" alt=""></div>
+                        	</div>
+                        	<div class="arrows-main-slider">
+								<img src="images/wrapper-arrows-slider.png" class="rear-arrows">
+								<div id="prevArrow" class="prevArrow"></div>
+								<div id="nextArrow" class="nextArrow"></div>
+								<div class="pagination"></div>
+							</div>
+						</div>
+                        <div class="right-info">
+                            <div class="right-info-img"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-gallery">
+				<div class="container">
+					<div class="row">
+						<div class="title-gallery">
+							<div class="picture-house"><img src="images/picture-house.png"></div>
+							<div class="one-title exposition active">Экспозиции</div>
+							<div class="one-title exhibition">Выставки</div>
+						</div>
+						<!--Вкладка "Экспозиции"-->
+						<div class="exposition-content">
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-1.jpg" alt=""></div>
+									<hr class="hr-event">
+               		    			<div class="text-event">«Ниночка, Нина, Нина Михайловна» <br> К 120-летию Н.М. Чернышевской...</div>
+									<div class="date-event">06.05.18</div>
+								</a>
+							</div>
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-2.jpg" alt=""></div>
+									<hr class="hr-event">
+									<div class="text-event">"Кому на Руси жить хорошо" <br> К 195-летию великого поэта Н.Некрасова 
+									откроется выставка...</div>
+									<div class="date-event">20.04.18</div>
+								</a>
+							</div>
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-3.jpg" alt=""></div>
+									<hr class="hr-event">
+									<div class="text-event">«Стезею правды и добра» <br> 31 марта в музее-усадьбе Н.Г.Чернышевского открылась выставка</div>
+									<div class="date-event">16.04.18</div>
+								</a>
+							</div>
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-4.jpg" alt=""></div>
+									<hr class="hr-event">
+									<div class="text-event">«Наша кунсткамера» <br> 1 июня в музее-усадьбе Н.Г.Чернышевского открылась выставка</div>
+									<div class="date-event">10.04.18</div>
+								</a>
+							</div>
+							<!--Центральный элемент, который выводить отдельно-->
+							<a href="#" class="center-event">
+								<div class="photo-event for-mobile"><img src="images/photo-gallery-center.jpg" alt=""></div>
+								<div class="date-event">
+									<div class="top-date">
+											<div class="year">2018</div>
+										<div class="start-date">
+											<div class="month">сентября</div>
+											<div class="number">05</div>
+										</div>
+										<div class="separator"></div>
+										<div class="finish-date">
+											<div class="month">октября</div>
+											<div class="number">20</div>
+										</div>
+									</div>
+									<div class="bottom-date">
+										<div class="left-info">
+											<div class="week">пн-пт:</div>
+											<div class="time">10:00 - 19:00</div>
+										</div>
+										<div class="right-info">событие</div>
+									</div>
+								</div>
+								<div class="photo-event"><img src="images/photo-gallery-center.jpg" alt=""></div>
+								<hr class="hr-event">
+								<div class="text-event">«Чернышевские и Пензенский край»<br>К 120-летию Н.М. Чернышевской...</div>
+							</a>
+							<a href="#" class="button-all-expo">Все экспозиции</a>
+						</div>
+						<!--Вкладка "Выставки"-->
+						<div class="exhibition-content">
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-1.jpg" alt=""></div>
+									<hr class="hr-event">
+									   <div class="text-event">«Ниночка, Нина, Нина Михайловна» <br> К 120-летию Н.М. Чернышевской...</div>
+									<div class="date-event">06.05.18</div>
+								</a>
+							</div>
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-2.jpg" alt=""></div>
+									<hr class="hr-event">
+									<div class="text-event">"Кому на Руси жить хорошо" <br> К 195-летию великого поэта Н.Некрасова 
+									откроется выставка...</div>
+									<div class="date-event">20.04.18</div>
+								</a>
+							</div>
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div class="photo-event"><img src="images/photo-gallery-3.jpg" alt=""></div>
+									<hr class="hr-event">
+									<div class="text-event">«Стезею правды и добра» <br> 31 марта в музее-усадьбе Н.Г.Чернышевского открылась выставка</div>
+									<div class="date-event">16.04.18</div>
+								</a>
+							</div>
+							<div class="one-event">
+								<a href="#" class="wrapper-event">
+									<div href="#" class="photo-event"><img src="images/photo-gallery-4.jpg" alt=""></div>
+									<hr class="hr-event">
+									<div class="text-event">«Наша кунсткамера» <br> 1 июня в музее-усадьбе Н.Г.Чернышевского открылась выставка</div>
+									<div class="date-event">10.04.18</div>
+								</a>
+							</div>
+							<!--Центральный элемент, который выводить отдельно-->
+							<a href="#" class="center-event">
+								<div class="photo-event for-mobile"><img src="images/photo-gallery-center.jpg" alt=""></div>
+								<div class="date-event">
+									<div class="top-date">
+											<div class="year">2018</div>
+										<div class="start-date">
+											<div class="month">октября</div>
+											<div class="number">16</div>
+										</div>
+										<div class="separator"></div>
+										<div class="finish-date">
+											<div class="month">ноября</div>
+											<div class="number">20</div>
+										</div>
+									</div>
+									<div class="bottom-date">
+										<div class="left-info">
+											<div class="week">вт-пт:</div>
+											<div class="time">11:00 - 20:00</div>
+										</div>
+										<div class="right-info">событие</div>
+									</div>
+								</div>
+								<div class="photo-event"><img src="images/photo-gallery-center.jpg" alt=""></div>
+								<hr class="hr-event">
+								<div class="text-event">«Чернышевские и Пензенский край»<br>К 120-летию Н.М. Чернышевской...</div>
+							</a>
+							<a href="#" class="button-all-expo">Все выставки</a>
+						</div>
+					</div>
+				</div>	
+            </div>
+            
+            <div class="section-news">
+            	<div class="container">
+                    <div class="row">
+                    	<div class="section-title">
+                    		<h2>Новости</h2>
+                    		<div class="green-line"></div>
+                    		<div class="decor"><div class="decor-img"></div></div>
+                    	</div>
+                    	<div class="list-news">
+                    		<a href="#" class="one-new">
+                    			<div class="photo-new"><img src="images/007.jpg" alt=""></div>
+                    			<div class="text-new">Провинциальный салон «Зимний бал»</div>
+                    			<div class="date-new">15 февраля 16.00</div>
+                    		</a>
+                    		<a href="#" class="one-new">
+                    			<div class="photo-new"><img src="images/new-2.jpg" alt=""></div>
+                    			<div class="text-new">«Широкая Масленица» - игровая программа из цикла «Народные праздники».</div>
+                    			<div class="date-new">12-18 февраля 10.00-16.00</div>
+                    		</a>
+                    		<a href="#" class="one-new">
+                    			<div class="photo-new"><img src="images/new-3.jpg" alt=""></div>
+                    			<div class="text-new">День рождения В.О. Фомичева (к 94-летию): встреча художников разных поколений.</div>
+                    			<div class="date-new">2-4 февраля 2018г</div>
+                    		</a>
+                    		<a href="#" class="one-new">
+                    			<div class="photo-new"><img src="images/new-1.jpg" alt=""></div>
+                    			<div class="text-new">Провинциальный салон «Зимний бал</div>
+                    			<div class="date-new">15 февраля 16.00</div>
+                    		</a>
+                    		<a href="#" class="one-new">
+                    			<div class="photo-new"><img src="images/new-2.jpg" alt=""></div>
+                    			<div class="text-new">«Широкая Масленица» - игровая программа из цикла «Народные праздники».</div>
+                    			<div class="date-new">12-18 февраля 10.00-16.00</div>
+                    		</a>
+                    		<a href="#" class="one-new">
+                    			<div class="photo-new"><img src="images/new-3.jpg" alt=""></div>
+                    			<div class="text-new">День рождения В.О. Фомичева (к 94-летию): встреча художников разных поколений.</div>
+                    			<div class="date-new">2-4 февраля 2018г</div>
+                    		</a>
+                    	</div>
+                    	<a href="#" class="link-news">Все новости</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-about-company">
+            	<div class="container">
+            		<div class="row">
+            			<div class="title">Муниципальное учреждение культуры «Музей-усадьба Н.Г.Чернышевского» основано 20.09.1920 г.</div>
+            			<div class="mini-content-company">
+            				<div class="ornament"><div class="ornament-img"></div></div>
+            				<div class="text">Музей Н.Г. Чернышевского - некоммерческое учреждение, основная работа: культурно-просветительская, научно-исследовательская. Основной фонд музея насчитывает более 28 000 единиц хранения, имеется библиотека и архив. Музей расположен на территории бывшей усадьбы Чернышевских и Пыпиных.</div>
+            				<div class="link-about-company"><a href="#">О музее</a></div>
+            			</div>
+            			<div class="bg-company"></div>
+            		</div>
+            	</div>
+			</div>
+			
+			<div class="section-plan">
+            	<div class="container">
+            		<div class="row">
+						<div class="museum-360">
+							<span>Музей 360˚</span>
+							<img src="images/museum-360.png" alt="">
+							<a href="#" download>Скачать гид</a>
+						</div>
+            			<div class="plan-museum">
+							<span>План усадьбы</span>
+							<a data-fancybox="gallery" href="images/plan.png"><img src="images/plan.png" alt=""></a>
+						</div>
+            		</div>
+            	</div>
+			</div>
+			
+			<div class="section-contacts">
+				<div class="green-background"></div>
+				<div class="wrapper-map"></div>
+            	<div class="container">
+            		<div class="row">
+						<div class="section-title">
+							<h2>Расположение</h2>
+							<div class="green-line"></div>
+							<div class="decor"><div class="decor-img"></div></div>
+						</div>
+						<div class="contact-info">
+							<a href="#">Администрация муниципального образования “Город Саратов”</a>
+							<a href="#">Управление по культуре</a>
+							<a href="#">Муниципальное учреждение культуры “Музей-усадьба Н.г. Чернышевского”</a>
+							<hr>
+							<div class="cont cont-1">г. Саратов,<br> ул. Чернышевского, 142</div>
+							<div class="cont cont-2">8(8452) 23-06-66</div>
+							<div class="cont cont-3">с 10.00 до 17.00</div>
+							<a href="#">Памятные места Чернышевского в Саратове</a>
+						</div>
+            		</div>
+				</div>
+				<div class="mobile-map"><img src="images/mobile-map.jpg" alt=""></div>
+				<div class="contact-info mobile-info">
+					<div class="container">
+						<div class="row">
+							<a href="#">Администрация муниципального образования “Город Саратов”</a>
+							<a href="#">Управление по культуре</a>
+							<a href="#">Муниципальное учреждение культуры “Музей-усадьба Н.г. Чернышевского”</a>
+							<hr>
+							<div class="cont cont-1">г. Саратов,<br> ул. Чернышевского, 142</div>
+							<div class="cont cont-2">8(8452) 23-06-66</div>
+							<div class="cont cont-3">с 10.00 до 17.00</div>
+							<a href="#">Памятные места Чернышевского в Саратове</a>
+						</div>
+					</div>
+				</div>
+            </div>
+
+        </main>
+
+        <footer>
+        	<div class="container">
+        		<div class="row">
+            		<div class="top-footer">
+            			<span>Музей-усадьба Н.Г. Чернышевского</span>
+            			<div class="items-links">
+            				<a href="#">О музее</a>
+            				<a href="#">Экспозиции и выставки</a>
+            				<a href="#">Новости</a>
+            				<a href="#">Научная работа</a>
+            				<a href="#">Посетителям</a>
+            				<a href="#">Контакты</a>
+            			</div>
+            			<div class="social">
+            				<a href="#" target="_blank"><img src="images/icon-social-1.png" alt=""></a>
+            				<a href="http://www.facebook.com/sarusadba" target="_blank"><img src="images/icon-social-2.png" alt=""></a>
+            				<a href="https://vk.com/sarusadba" target="_blank"><img src="images/icon-social-3.png" alt=""></a>
+            				<a href="https://www.ok.ru/sarusadba" target="_blank"><img src="images/icon-social-4.png" alt=""></a>
+            				<a href="https://www.youtube.com/channel/UCfWD0ONY6SZR0CP9B9nDLEw" target="_blank"><img src="images/icon-social-5.png" alt=""></a>
+            			</div>
+            		</div>
+            		<div class="bottom-footer">
+            			<span>©Copyrigt, 2018. Все права защищены</span>
+            			<span>8(8452) 23-06-66</span>
+            			<span>sarusadba@yandex.ru</span>
+            			<a href="#">Политика конфиденциальности</a>
+            			<a href="https://www.cherepkova.ru/" target="_blank">Создание сайта: Cherry Studio</a>
+            		</div>
+            	</div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

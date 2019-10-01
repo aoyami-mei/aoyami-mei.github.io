@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="area.size" content="width=100%,height=100%">
+
+        <title>Корзина</title>
+
+        <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-new.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="left-col">
+                        <a href="#" class="logo"><img src="images/logo.png"></a>
+                        <ul class="menu">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Прайс-лист</a></li>
+                            <li><a href="#">Региональные представители</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Техническая поддержка</a></li>
+                            <li class="item-cart">
+                                <div class="sum-good">0</div>
+                                <img src="images/new-images/icon-cart.png" alt="">
+                                <span>7.280 Р.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-col">
+                        <h1>Корзина</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-block"></div>
+            <div class="white-block"></div>
+            <!--Всплывашка корзины-->
+            <div class="block-cart">
+                <div class="goods-in-cart">
+                    <div class="one-good">
+                        <div class="img-wrap-popup"><img src="images/new-images/mini-good.png" alt=""></div>
+                        <div class="name-good">Полис 111</div>
+                        <div class="spinner">
+                            <a href="" class="s-down"><img src="images/prev-arrow-gray.png" alt=""></a>
+                            <input type="text" class="number_itemone field countdata_5402" value="1">
+                            <a href="" class="s-up"><img src="images/next-arrow-gray.png" alt=""></a>
+                        </div>
+                        <div class="price-in-item">3.640 р.</div>
+                        <div class="delete"></div>
+                    </div>
+                    <div class="one-good">
+                        <div class="img-wrap-popup"><img src="images/new-images/mini-good.png" alt=""></div>
+                        <div class="name-good">Полис 111 длинное название</div>
+                        <div class="spinner">
+                            <a href="" class="s-down"><img src="images/prev-arrow-gray.png" alt=""></a>
+                            <input type="text" class="number_itemone field countdata_5402" value="1">
+                            <a href="" class="s-up"><img src="images/next-arrow-gray.png" alt=""></a>
+                        </div>
+                        <div class="price-in-item">3.640 р.</div>
+                        <div class="delete"></div>
+                    </div>
+                </div> 
+                <div class="full-sum">Итого: 7.280 руб.</div>
+                <a href="#" class="button">Перейти в корзину</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="breadcrumbs">
+                <div class="container">
+                    <div class="row">
+                        <a href="#">Главная</a>
+                        <a href="#">Корзина</a>
+                    </div>
+                </div>
+            </div>
+            <section class="page-cart">
+                <div class="container">
+                    <div class="row">
+                        <div class="list-good">
+                            <div class="title-price">
+                                <span>Обычная</span>
+                                <span>Со скидкой</span>
+                            </div>
+                            <div class="one-good">
+                                <div class="img-wrap-popup"><img src="images/catalog-1.png" alt=""></div>
+                                <div class="name-good">Монтажный комплект с козырьком</div>
+                                <div class="spinner">
+                                    <a href="" class="s-down"><img src="images/prev-arrow-gray.png" alt=""></a>
+                                    <input type="text" class="number_itemone field countdata_5402" value="1">
+                                    <a href="" class="s-up"><img src="images/next-arrow-gray.png" alt=""></a>
+                                </div>
+                                <div class="price-in-item">3.640 р.</div>
+                                <div class="price-in-item for-sale">2.640 р.</div>
+                                <div class="delete"></div>
+                            </div>
+                            <div class="one-good">
+                                <div class="img-wrap-popup"><img src="images/catalog-1.png" alt=""></div>
+                                <div class="name-good">Полис 111 серия 2 длинное название</div>
+                                <div class="spinner">
+                                    <a href="" class="s-down"><img src="images/prev-arrow-gray.png" alt=""></a>
+                                    <input type="text" class="number_itemone field countdata_5402" value="1">
+                                    <a href="" class="s-up"><img src="images/next-arrow-gray.png" alt=""></a>
+                                </div>
+                                <div class="price-in-item">3.640 р.</div>
+                                <div class="price-in-item for-sale">2.640 р.</div>
+                                <div class="delete"></div>
+                            </div>
+                            <div class="bottom-block">
+                                <a href="#" class="button-gray">Вернуться к покупкам</a>
+                                <div class="itogo">Итого: 7.280 руб.</div>
+                            </div>
+                        </div>
+                        <div class="form-order">
+                            <form>
+                                <div class="form-title">Оформить заказ</div>
+                                <input class="info-client" type="text" placeholder="Имя" required>
+                                <input class="info-client" type="phone" required maxlength="18" autocomplete="off" placeholder="+7 ( _ _ _ ) _ _ _ – _ _ – _ _ ">
+                                <input class="info-client" type="email" required placeholder="E-mail">
+                                <div class="agree-checkbox">
+                                    <input type="checkbox" id="agree" required checked>
+                                    <label for="agree">Согласие с условиями обработки персональных данных и <a href="#">политикой конфиденциальности</a></label>
+                                </div>
+                                <input type="submit" class="button" value="Оформить заказ">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="free-delivery">
+                    <div class="container">
+                        <div class="row">
+                            <img src="images/new-images/white-truck.png">
+                            <span><a href="#">Бесплатная</a> доставка по России</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-columns">
+                        <div class="f-1">
+                            <a href="#" class="logo"><img src="images/logo.png"></a>
+                            <span>НПФ Витек, 2018 г.</span>
+                            <a href="#" class="polite">Политика конфиденциальности</a>
+                        </div>
+                        <div class="f-2">
+                            <a href="#">Главная</a>
+                            <a href="#">Каталог</a>
+                            <a href="#">Прайс-лист</a>
+                        </div>
+                        <div class="f-3">
+                            <a href="#">Контакты</a>
+                            <a href="#">Услуги</a>
+                            <a href="#">Региональные представители</a>
+                        </div>
+                        <div class="f-4">
+                            <div class="address">г. Саратов, пр-т 50 лет Октября, 101</div>
+                            <div class="contacts">
+                                <div class="tel">
+                                    <img src="images/icon-phone.png">
+                                    <span>8 (845-2) 43-19-16</span>
+                                </div>
+                                <div class="mail">
+                                    <img src="images/icon-post.png">
+                                    <span>vitek@overta.ru</span>
+                                </div>
+                            </div>
+                            <div class="cherry">
+                                <span>Дизайн разработан</span>
+                                <a href="https://www.cherepkova.ru/">Cherry Studio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

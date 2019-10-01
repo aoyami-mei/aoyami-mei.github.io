@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="area.size" content="width=100%,height=100%">
+
+		<title>Авиатор</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="#">
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/set2.css"/>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="js/parallax.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.mask.min.js"></script>
+		<script src="js/jquery.formstyler.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/classie.js"></script>
+	</head>
+
+	<body>
+		<div class="scroll-top">
+			<img src="images/arrow-top.png">
+		</div>
+
+		<div class="slidebar-left">
+    		<ul>
+    			<li><a href="#">Пункт дополнительного меню</a></li>
+    			<li><a href="#">Пункт дополнительного меню</a></li>
+    			<li><a href="#">Пункт дополнительного меню</a></li>
+    			<li><a href="#">Пункт дополнительного меню</a></li>
+    			<li><a href="#">Пункт дополнительного меню</a></li>
+    			<li><a href="#">Пункт дополнительного меню</a></li>
+    		</ul>
+    		<div class="button-close-slidebar-left"><img src="images/close.png"></div>
+    	</div>
+
+    	<div class="slidebar-right">
+    		<div class="white-form">
+				<p class="color-green">Оставьте свои контакные данные, мы свяжемся с вами для уточнения даты замера помещения.</p>
+				<form class="bottom-form">
+					<span class="input input--chisato">
+						<input class="input__field input__field--chisato" type="text" id="input-1" required>
+						<label class="input__label input__label--chisato" for="input-11">
+							<span class="input__label-content input__label-content--chisato" data-content="Ваше имя">Ваше имя</span>
+						</label>
+					</span>
+					<span class="input input--chisato">
+						<input class="input__field input__field--chisato" type="tel" id="input-2" name="phone" required>
+						<label class="input__label input__label--chisato" for="input-2">
+							<span class="input__label-content input__label-content--chisato" data-content="Ваш телефон">+7 (___) ___ - __ - __</span>
+						</label>
+					</span>
+					<a href="#" class="green-button"><span class="color-white">Отправить заявку</span></a>
+				</form>
+			</div>
+    		<div class="button-close-slidebar-right"><img src="images/close.png"></div>
+    	</div>
+
+    	<div class="fixed-header">
+			<div class="wrapper">
+				<header>
+					<ul>
+						<li class="fix-menu"><img src="images/icon-menu.png" class="open-slidebar-left"></li>
+						<li><a class="scroll-menu" href="#about-company">О компании</a></li>
+						<li><a class="scroll-menu" href="#calculator">Рассчитать стоимость</a></li>
+						<li><a class="scroll-menu" href="#semi-dry">О стяжке</a></li>
+						<li><a class="scroll-menu" href="#example">Примеры работ</a></li>
+						<li><a class="scroll-menu" href="#partners">Нам доверяют</a></li>
+					</ul>
+					<div class="phone">
+						<p>+7 (8452) 123-456</p>
+						<a href="#" class="open-slidebar-right">перезвонить?</a>
+					</div>
+				</header>
+			</div>
+		</div>
+
+		<main>
+			<div class="wrapper">
+				<section class="main-section">
+					<div class="row slider-row">
+						<div class="col-md-6 col-12 container-logo">
+							<img class="logo" src="images/main-logo.png">
+							<h2 class="color-black">Стяжка пола <br> за 1 день по ГОСТу</h2>
+							<hr>
+							<p class="color-green">от 240 руб/м2</p>
+							<a href="#" class="green-button open-slidebar-right"><span class="color-white">Вызвать на замер</span></a>
+						</div>
+						<div class="col-md-6 col-12 wrap-slider">
+							<div id="prevArrow" class="prevArrow"><!--img src="images/arrow-left-gray.png"--></div>
+		   					<div id="nextArrow" class="nextArrow"><!--img src="images/arrow-right.png"--></div>
+		   					<div class="slider slider-main"> 
+		   						<div><img src="images/slider-main_slide-1.jpg"></div>
+		   						<div><img src="images/slider-main_slide-4.jpg"></div>
+		   						<div><img src="images/slider-main_slide-3.jpg"></div>
+		   						<div><img src="images/slider-main_slide-4.jpg"></div>
+		   						<div><img src="images/slider-main_slide-5.jpg"></div>
+		   					</div>
+		   					<div class="pagination"></div>
+						</div>
+					</div>
+					<div class="mouse"><img src="images/mouse.png"></div>
+				</section>
+			
+				<div class="vertical-line-wrap">
+					<div class="vertical-line wow"></div>
+				</div>
+
+				<section class="about-company" id="about-company">
+					<div class="row">
+						<div class="col-md-4 col-xs-12 caption">
+							<h2 class="color-black">О компании</h2>
+							<span class="color-green">немного о нас</span>
+						</div>
+						<div class="col-md-4 col-xs-12 color-black description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,pellentesque eu, pretium quis, sem.</p> 
+							<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+						</div>
+						<div class="col-md-4 col-xs-12 color-black description">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,pellentesque eu, pretium quis, sem.</p> 
+							<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="screed">
+					<div class="row">
+						<div class="col-md-6 col-xs-12 place-screed">
+							<div class="screed-content">
+								<div class="caption">
+									<h2>Где можно залить</h2>
+									<span class="color-gray">полусухую стяжку</span>
+								</div>
+								<ul>
+									<li class="item-1">
+										<p class="color-black">В квартире</p>
+										<span class="color-gray">на любом этаже</span>
+									</li>
+									<li class="item-2">
+										<p class="color-black">В загородном доме</p>
+										<span class="color-gray">любой площади</span>
+									</li>
+									<li class="item-3">
+										<p class="color-black">В офисном центре</p>
+										<span class="color-gray">или торговом центре</span>
+									</li>
+									<li class="item-4">
+										<p class="color-black">На промышленных объектах</p>
+										<span class="color-gray">в цехах, на складах, парковках</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12 image-fix">
+							<img src="images/screed-bg.jpg">
+						</div>
+					</div>
+				</section>
+
+				<div class="vertical-line-wrap">
+					<div class="vertical-line wow"></div>
+				</div>
+
+				<section class="calculator" id="calculator">
+					<div class="bg-gray"></div>
+					<div class="left-calc">
+						<div class="caption">
+							<h2 class="color-white">Калькулятор рассчёта цены</h2>
+							<span class="color-white">сколько стоит залить Ваш пол</span>
+						</div>
+						<div class="wrap-input">
+							<div class="input-number">
+								<div>
+									<span><input type="number" name=""></span>
+									<label class="color-white">Площадь <br> помещения (кв.м.)</label>
+								</div>
+								<div>
+									<span><input type="number" name=""></span>
+									<label class="color-white">Средняя высота <br> пола (см.)</label>
+								</div>
+							</div>
+							<div class="input-checkbox">
+								<div>
+									<input type="checkbox" name="" class="css-checkbox" id="sale">
+									<label class="color-white css-label" for="sale">Скидка <br> для новосёлов</label>
+								</div>
+								<div>
+									<input type="checkbox" name="" class="css-checkbox" id="disassembly">
+									<label class="color-white css-label" for="disassembly">Демонтаж <br> старого пола</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right-calc">
+						<div>
+							<p class="summ color-gray">35 800 р.</p>
+							<span class="for-summ color-gray">Итого</span>
+						</div>
+						<form>
+							<span class="input input--chisato">
+								<input class="input__field input__field--chisato" type="text" id="input-1" required>
+								<label class="input__label input__label--chisato" for="input-1">
+									<span class="input__label-content input__label-content--chisato" data-content="Ваше имя">Ваше имя</span>
+								</label>
+							</span>
+							<span class="input input--chisato">
+								<input class="input__field input__field--chisato" type="tel" id="input-2" name="phone" required>
+								<label class="input__label input__label--chisato" for="input-2">
+									<span class="input__label-content input__label-content--chisato" data-content="Ваш телефон">+7 (___) ___ - __ - __</span>
+								</label>
+							</span>
+							<a href="#" class="green-button"><span class="color-white">Отправить заявку по этой цене</span></a>
+						</form>
+					</div>
+				</section>
+
+				<section class="why-us">
+					<div class="caption">
+						<h2>Почему мы</h2>
+						<span class="color-gray">отличительные преимущества</span>
+					</div>
+					<div class="lines">
+						<img src="images/lines.png">
+						<img src="images/propeller-new.png" class="propeller">
+					</div>
+					<ul>
+						<li class="item-1">Гарантия <br> 24 месяца *</li>
+						<li class="item-2">Опыт более <br> 109500 кв.м пола</li>
+						<li class="item-3">Срок службы <br> 30 лет</li>
+						<li class="item-4">Работаем 24 часа, <br> 7 дней в неделю</li>
+						<li class="item-5">Выезд на объект <br> в течении 5 часов</li>
+						<li class="item-6">Снимаем старую стяжку, <br> подготавливаем пол к стяжке</li>
+						<li class="item-7">Работаем на любом этаже:  <br> от подвала до высотки</li>
+						<li class="item-8">Работаем за наличный <br> и безналичный расчет</li>
+						<li class="item-9">Фото и Видео отчет <br> на всех этапах работ</li>
+						<li class="item-10">Скидки <br> новоселам</li>
+						<li class="item-11">Выполняем стяжку <br> с гидроизоляцией</li>
+						<li class="item-12">Стяжка пола <br> за 1 день</li>
+					</ul>
+					<span class="mini">* при соблюдении инструкций по уходу</span>
+				</section>
+			</div>
+
+			<section class="semi-dry" id="semi-dry">
+				<div class="wrapper">
+					<div class="caption">
+						<h2>Полусухая стяжка</h2>
+						<span class="color-green">преимущества продукта</span>
+					</div>
+					<div class="banner parallax-window" data-parallax="scroll" data-image-src="images/about-product-bg.jpg" data-position="0,120">
+					</div>
+					<div class="gray-block">
+						<img src="images/arrow-bottom.png">
+					</div>
+					<div class="info">
+						<div class="vertical-line wow"></div>
+						<ul>
+							<li class="item-1 wow" data-wow-delay="0s">Полусухая стяжка не требует дополнительного выравнивания</li>
+							<li class="item-2 wow" data-wow-delay="0.5s">Полусухая стяжка не дает усадки и отличается повышенной устойчивостью</li>
+							<li class="item-3 wow" data-wow-delay="1s">Полусухая стяжка дает дополнительную шумоизоляцию</li>
+							<li class="item-4 wow" data-wow-delay="1.5s">Полусухая стяжка очень быстро сохнет</li>
+							<li class="item-5 wow" data-wow-delay="2s">Полусухая стяжка отличается однородной структурой, ровной поверхностью</li>
+							<li class="item-6 wow" data-wow-delay="2.5s">Полусухая стяжка пригодна для укладки любого напольного покрытия</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="semi-dry-bg"></section>
+
+			<section class="comparison">
+				<div class="wrapper">
+					<div class="caption">
+						<h3 class="color-black">Сравнение стяжки пола</h3>
+					</div>
+					<div class="row-wrap ">
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 color-green crit">Критерии</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 color-white cell-dark middle">Полусухая стяжка пола</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 color-white cell-dark">Мокрая стяжка пола</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 offset-4 col-sm-4 col-md-4 col-lg-3 offset-md-4 offset-lg-2 color-green inn-trad">инновационная</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 color-green inn-trad">традиционная</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell first">Объём работ в день</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell first">до 300 м2</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell first">до 50 м2</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Необходимость дополнительного выравнивания</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">нет</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">да</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Пешие нагрузки</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">через 12 часов</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">через 72 часа</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Отделочные работы</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">через 8 дней</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">через 28 дней</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Прочность</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">высокая</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">высокая</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Потребление воды</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">минимальное</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">максимальное</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Возможность протечек без заливки</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">нет</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">да</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Элемент армирования</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">фиброволокно</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">сетка</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Использование специального оборрудования</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">да</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">нет</div>
+						</div>
+						<div class="row table-block">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-2 left-column cell">Допустимые перепады на 2 метра</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 middle-column cell">3мм</div>
+							<div class="col-4 col-sm-4 col-md-4 col-lg-3 right-column cell">10мм</div>
+						</div>
+						<div class="white-form">
+							<p class="color-green">Оставьте свои контакные данные, мы свяжемся с вами для уточнения даты замера помещения.</p>
+							<form class="bottom-form">
+								<span class="input input--chisato">
+									<input class="input__field input__field--chisato" type="text" id="input-1" required>
+									<label class="input__label input__label--chisato" for="input-11">
+										<span class="input__label-content input__label-content--chisato" data-content="Ваше имя">Ваше имя</span>
+									</label>
+								</span>
+								<span class="input input--chisato">
+									<input class="input__field input__field--chisato" type="tel" id="input-2" name="phone" required>
+									<label class="input__label input__label--chisato" for="input-2">
+										<span class="input__label-content input__label-content--chisato" data-content="Ваш телефон">+7 (___) ___ - __ - __</span>
+									</label>
+								</span>
+								<a href="#" class="green-button"><span class="color-white">Отправить заявку</span></a>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<div class="wrapper">
+				<div class="vertical-line-wrap">
+					<div class="vertical-line wow"></div>
+				</div>
+			</div>
+
+			<section class="working">
+				<div class="wrapper">
+					<div class="caption">
+						<h2>Общий ход работ</h2>
+						<span class="color-green">путь до пола вашей мечты</span>
+					</div>
+				</div>
+				<div class="wrap-slider-working">
+					<div class="wrap-pagin">
+						<div id="prevArrow-working" class="prevArrow"></div>
+						<div class="pagination-text"></div>
+		   				<div id="nextArrow-working" class="nextArrow"></div>
+		   			</div>
+					<div class="slider slider-photo slider-nav">
+						<img src="images/slider-working-process_slide-1.jpg">
+						<img src="images/slider-working-process_slide-1.jpg">
+						<img src="images/slider-working-process_slide-1.jpg">
+						<img src="images/slider-working-process_slide-1.jpg">
+						<img src="images/slider-working-process_slide-1.jpg">
+						<img src="images/slider-working-process_slide-1.jpg">
+						<img src="images/slider-working-process_slide-1.jpg">
+					</div>
+					<div class="slider slider-text slider-for">
+						<div>
+							<p>Предварительная подготовка</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+						<div>
+							<p>Второй этап</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+						<div>
+							<p>Третий этап</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+						<div>
+							<p>Четвёртый этап</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+						<div>
+							<p>Пятый этап</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+						<div>
+							<p>Шестой этап</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+						<div>
+							<p>Седьмой этап</p>
+							<span>Для начала работ на объекте должен быть чистый пол (без крупного мусора), холодная вода, электричество.</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<hr class="gradient">
+
+			<section class="example" id="example">
+				<div class="wrapper">
+					<div class="caption">
+						<h2>Примеры работ</h2>
+						<span class="color-green">наши готовые объекты</span>
+					</div>
+					<div class="wrap-double-slider">
+						<div id="prevArrow-double" class="prevArrow"><!--img src="images/arrow-left-gray.png"--></div>
+		   				<div id="nextArrow-double" class="nextArrow"><!--img src="images/arrow-right.png"--></div>
+		   				<div class="slider double-slider"> 
+		   					<div><img src="images/slider-double_slide-1.jpg"></div>
+		   					<div><img src="images/slider-double_slide-1.jpg"></div>
+		   					<div><img src="images/slider-double_slide-1.jpg"></div>
+		   					<div><img src="images/slider-double_slide-1.jpg"></div>
+		   					<div><img src="images/slider-double_slide-1.jpg"></div>
+		   				</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+				</div>
+			</section>
+
+			<div class="wrapper">
+				<div class="vertical-line-wrap">
+					<div class="vertical-line wow"></div>
+				</div>
+			</div>
+
+			<section class="partners" id="partners">
+				<div class="wrapper">
+					<div class="caption">
+						<h2>Мы делали пол для:</h2>
+						<span class="color-green">и они нам доверяют</span>
+					</div>
+					<div class="logos">
+						<div class="wrap-logo"><img src="images/logo-partner-1.png"></div>
+						<div class="wrap-logo"><img src="images/logo-partner-2.png"></div>
+						<div class="wrap-logo"><img src="images/logo-partner-3.png"></div>
+						<div class="wrap-logo"><img src="images/logo-partner-4.png"></div>
+						<div class="wrap-logo"><img src="images/logo-partner-1.png"></div>
+					</div>
+					<div class="statist">
+						<div class="item">
+							<div class="wrap-img"><img src="images/partner-icon-1.png" class="partner-icon-1"></div>
+							<p><span class="color-green">148</span><br>компаний</p>
+						</div>
+						<div class="item">
+							<div class="wrap-img"><img src="images/partner-icon-2.png" class="partner-icon-2"></div>
+							<p><span class="color-green">1670</span><br>квартир</p>
+						</div>
+						<div class="arrow-right-gray"><img src="images/arrow-right-gray.png"></div>
+						<div class="item">
+							<p class="itog">итого</p>
+							<p><span class="color-green">45 000</span><br>кв.м стяжки</p>
+						</div>
+						<div><img src="images/partner-icon-3.png"></div>
+					</div>
+					<div class="caption">
+						<div class="row">
+							<h2>Мы сделаем пол для Вас</h2>
+							<p class="color-green">Оставьте свои контакные данные, мы свяжемся с вами <br> для уточнения даты замера помещения.</p>
+						</div>
+					</div>
+					<form class="bottom-form">
+						<span class="input input--chisato">
+								<input class="input__field input__field--chisato" type="text" id="input-1" required>
+								<label class="input__label input__label--chisato" for="input-11">
+									<span class="input__label-content input__label-content--chisato" data-content="Ваше имя">Ваше имя</span>
+								</label>
+							</span>
+							<span class="input input--chisato">
+								<input class="input__field input__field--chisato" type="tel" id="input-2" name="phone" required>
+								<label class="input__label input__label--chisato" for="input-2">
+									<span class="input__label-content input__label-content--chisato" data-content="Ваш телефон">+7 (___) ___ - __ - __</span>
+								</label>
+							</span>
+							<a href="#" class="green-button"><span class="color-white">Отправить заявку</span></a>
+					</form>
+				</div>
+			</section>
+
+
+		</main>
+
+		<footer>
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-lg-2 col-md-4 col-12">
+						<img src="images/footer-logo.png">
+					</div>
+					<div class="col-lg-8 col-md-8 col-12 middle">
+						<ul>
+							<li><a class="scroll-menu color-white" href="#about-company">О компании</a></li>
+							<li><a class="scroll-menu color-white" href="#calculator">Рассчитать стоимость</a></li>
+							<li><a class="scroll-menu color-white" href="#semi-dry">О стяжке</a></li>
+							<li><a class="scroll-menu color-white" href="#example">Примеры работ</a></li>
+							<li><a class="scroll-menu color-white" href="#partners">Нам доверяют</a></li>
+						</ul>
+						<div>
+							<a href="#" class="color-white polite">Политика конфиденциальности</a>
+							<span class="color-white text">ООО «Авиатор» полусухая стяжка пола в Саратове <br> Вся информация на сайте носит рекламно-информационный<br>  характер и не может считаться публичной офертой.</span>
+						</div>
+					</div>
+					<div class="col-lg-2 col-right-block footer-contacts">
+						<div class="phone">
+							<p class="color-white">+7 (8452) 123-456</p>
+						</div>
+						<div class="address">
+							<p class="color-white">Саратов,<br> пр. 50-Лет Октября <br> 108У, оф.212</p>
+						</div>
+						<div class="cherry color-white">Разработка сайта <a href="www.cherepkova.ru">cherepkova.ru</a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	</body>
+</html>
