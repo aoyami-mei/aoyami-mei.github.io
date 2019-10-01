@@ -15,7 +15,7 @@
 
 body {
 	font-family: "Lato";
-	background-image: url(../images/main-bg.png);
+	background-image: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -53,6 +53,8 @@ a {
 
 .name-site {
 	text-align: center;
+	text-decoration: none;
+	color: #000000;
 }
 
 .wrap-img {
