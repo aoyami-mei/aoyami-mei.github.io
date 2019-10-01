@@ -42,3 +42,12 @@ a {
 .name-site {
 	text-align: center;
 }
+
+.wrap-img {
+	width: 100%;
+}
+
+.wrap-img img {
+	max-width: 100%;
+	height: auto;
+}
