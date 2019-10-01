@@ -74,7 +74,9 @@ $(window).on('load resize', function() {
     $('#menu').css({ position: "", visibility: "", display: "" });
     $(this).parent().width(width);
   });
-
+  
+  var heightTruck = $(".slider-index .slick-slide.slick-current").height();
+  $(".main-block").innerHeight(heightTruck - 48);
 
 });
 

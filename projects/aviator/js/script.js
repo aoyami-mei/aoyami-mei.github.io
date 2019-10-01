@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	$('.slider-main').on('init', function(event, slick){
+	    $('.slider-row').height($('.slider-main').height());
+	});
+
   	$('.slider-main').slick({
 		slidesToShow: 1.2,
 		slidesToScroll: 1,
@@ -23,10 +27,6 @@ $(document).ready(function(){
 		},
 		appendDots:$('.pagination')
 	});
-
-	$(".slider-main").load(function() {
-      	$('.slider-row').height($('.slider-main').height());
- 	});
 
 	$('.double-slider').slick({
 		slidesToShow: 4,
