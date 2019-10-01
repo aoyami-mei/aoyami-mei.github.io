@@ -17,7 +17,7 @@
 .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, 
 .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { padding-left: 0; padding-right: 0; }
 
-body { margin: 0; position: relative; background-image: url('../images/main-bg.png'); overflow-x: hidden; color: #2E393E; line-height: 1; font-family: Lemontuesday; min-height: 100vh; font-size: 20px; }
+body { margin: 0; position: relative; overflow-x: hidden; color: #2E393E; line-height: 1; font-family: Lemontuesday; min-height: 100vh; font-size: 20px; }
 
 p { margin-bottom: 0; font-size: 14px; color: #172029; }
 
@@ -45,7 +45,11 @@ main { min-height: calc(100vh - 732px); }
 
 body {
 	font-family: "Lato";
-	background-image: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);
+	/*background-image: url('images/main-bg.png');*/
+	/*background-image: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);*/
+	background-image: linear-gradient(to right, rgb(172, 182, 229), rgb(134, 253, 232));
+	/*background: linear-gradient(to right, rgb(198, 255, 221), rgb(251, 215, 134), rgb(247, 121, 125));*/
+	/*background: linear-gradient(to right, rgb(211, 204, 227), rgb(233, 228, 240));*/
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
