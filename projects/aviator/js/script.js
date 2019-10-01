@@ -23,7 +23,10 @@ $(document).ready(function(){
 		},
 		appendDots:$('.pagination')
 	});
-	$('.slider-row').height($('.slider-main').height());
+
+	$(".slider-main").load(function() {
+      	$('.slider-row').height($('.slider-main').height());
+ 	});
 
 	$('.double-slider').slick({
 		slidesToShow: 4,
