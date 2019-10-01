@@ -666,8 +666,11 @@ section.advantage img.icon-advan {
 }
 section.advantage img.ellipse {
   position: absolute;
-  z-index: -1;
+ /* z-index: -1;*/
   left: 20px;
+}
+section.advantage .one-advan span {
+  z-index: 20;
 }
 section.about-company {
   padding: 60px 0;
