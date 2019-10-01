@@ -30,12 +30,13 @@ h1 {
 a {
     width: 22%;
     height: 150px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     margin-bottom: 20px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .name-site {
