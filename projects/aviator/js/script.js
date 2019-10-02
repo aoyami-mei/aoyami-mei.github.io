@@ -1,8 +1,10 @@
-$(document).ready(function(){
+$(window).load(function(){
 	$('.slider-main').on('init', function(event, slick){
 	    $('.slider-row').height($('.slider-main').height());
 	});
+})
 
+$(document).ready(function(){
   	$('.slider-main').slick({
 		slidesToShow: 1.2,
 		slidesToScroll: 1,
