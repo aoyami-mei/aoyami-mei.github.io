@@ -2093,6 +2093,8 @@ form input {
 
 .mobile-menu { display: none; }
 
+.wrap-slider-good .slider-for .slick-prev, .wrap-slider-good .slider-for .slick-next { display: none !important; }
+
 /*********** Media Style **********/
 @media (min-width: 1920px) {
     body {
