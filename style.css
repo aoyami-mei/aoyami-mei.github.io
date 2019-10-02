@@ -151,9 +151,9 @@ h1 {
 	transform: scale(1.07);
 }*/
 
-.links a:hover .name-site {
+/*.links a:hover .name-site {
 	font-size: 16.3px;
-}
+}*/
 
 .links a:hover .wrap-img img {
 	transform: scale(1.07);
