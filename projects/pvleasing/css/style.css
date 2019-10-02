@@ -951,6 +951,9 @@ section.gallery .one-project:hover img, section.gallery-lev2 .one-photo:hover im
 	transform: scale(1.2);
   transition: all 1s;
 }
+section.gallery .one-project img, section.gallery-lev2 .one-photo img {
+    transition: all 1s;
+  }
 section.gallery-lev2 .one-photo {
   overflow: hidden;
   border: 1px solid #ffffff;
