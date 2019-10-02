@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="area.size" content="width=100%,height=100%">
 
-        <title>Полис</title>
+        <title>Главная</title>
 
         <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
 
@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/jquery.fancybox.min.css">
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-new.css">
     </head>
 
     <body>
@@ -22,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="left-col">
-                        <a href="#" class="logo"><img src="images/logo.png"></a>
+                        <a href="/projects/polis/Главная.html" class="logo"><img src="images/logo.png"></a>
                         <ul class="menu">
                             <li><a href="/projects/polis/Главная.html">Главная</a></li>
                             <li><a href="/projects/polis/Каталог.%20Все%20категории.html">Каталог</a></li>
@@ -31,6 +32,11 @@
                             <li><a href="#">Услуги</a></li>
                             <li><a href="/projects/polis/Контакты.html">Контакты</a></li>
                             <li><a href="#">Техническая поддержка</a></li>
+                            <li class="item-cart">
+                                <div class="sum-good">0</div>
+                                <img src="images/new-images/icon-cart.png" alt="">
+                                <span>7.280 Р.</span>
+                            </li>
                         </ul>
                     </div>
                     <div class="right-col">
@@ -41,6 +47,33 @@
             </div>
             <div class="shadow-block"></div>
             <div class="white-block"></div>
+            <!--Всплывашка корзины-->
+            <div class="block-cart">
+                <div class="goods-in-cart">
+                    <div class="one-good">
+                        <div class="img-wrap-popup"><img src="images/new-images/mini-good.png" alt=""></div>
+                        <div class="name-good">Полис 111 серия 2</div>
+                        <div class="spinner">
+                            <a href="" class="s-down"><img src="images/prev-arrow-gray.png" alt=""></a>
+                            <input type="text" class="number_itemone field countdata_5402" value="1">
+                            <a href="" class="s-up"><img src="images/next-arrow-gray.png" alt=""></a>
+                        </div>
+                        <div class="price-in-item">3.640 р.</div>
+                    </div>
+                    <div class="one-good">
+                            <div class="img-wrap-popup"><img src="images/new-images/mini-good.png" alt=""></div>
+                            <div class="name-good">Полис 111 серия 2</div>
+                            <div class="spinner">
+                                <a href="" class="s-down"><img src="images/prev-arrow-gray.png" alt=""></a>
+                                <input type="text" class="number_itemone field countdata_5402" value="1">
+                                <a href="" class="s-up"><img src="images/next-arrow-gray.png" alt=""></a>
+                            </div>
+                            <div class="price-in-item">3.640 р.</div>
+                        </div>
+                </div> 
+                <div class="full-sum">Итого: 7.280 руб.</div>
+                <a href="/projects/polis/Корзина.html" class="button">Перейти в корзину</a>
+            </div>
         </header>
 
         <main>
@@ -70,15 +103,15 @@
                         <div class="title"><span>Наша продукция</span></div>
                     </div>
                     <div class="products row">
-                        <a href="#" class="product">
+                        <a href="/projects/polis/Каталог.%20Cтраница%20категории.html" class="product">
                             <img src="images/catalog-1.png">
                             <div class="name">Накладные замки</div>
                         </a>
-                        <a href="#" class="product">
+                        <a href="/projects/polis/Каталог.%20Cтраница%20категории.html" class="product">
                             <img src="images/catalog-2.png">
                             <div class="name">Врезные замки</div>
                         </a>
-                        <a href="#" class="product">
+                        <a href="/projects/polis/Каталог.%20Cтраница%20категории.html" class="product">
                             <img src="images/catalog-3.png">
                             <div class="name">Кодонаборные панели</div>
                         </a>
@@ -179,17 +212,17 @@
                 <div class="row">
                     <div class="footer-columns">
                         <div class="f-1">
-                            <a href="#" class="logo"><img src="images/logo.png"></a>
-                            <span>НПФ Витек, 2018 г.</span>
+                            <a href="/projects/polis/Главная.html" class="logo"><img src="images/logo.png"></a>
+                            <span>НПФ Витек, 2019 г.</span>
                             <a href="#" class="polite">Политика конфиденциальности</a>
                         </div>
                         <div class="f-2">
-                            <a href="#">Главная</a>
-                            <a href="#">Каталог</a>
-                            <a href="#">Прайс-лист</a>
+                            <a href="/projects/polis/Главная.html">Главная</a>
+                            <a href="/projects/polis/Каталог.%20Все%20категории.html">Каталог</a>
+                            <a href="/projects/polis/Прайс-лист.html">Прайс-лист</a>
                         </div>
                         <div class="f-3">
-                            <a href="#">Контакты</a>
+                            <a href="/projects/polis/Контакты.html">Контакты</a>
                             <a href="#">Услуги</a>
                             <a href="#">Региональные представители</a>
                         </div>
@@ -207,7 +240,7 @@
                             </div>
                             <div class="cherry">
                                 <span>Дизайн разработан</span>
-                                <a href="https://www.cherepkova.ru/">Cherry Studio</a>
+                                <a href="https://www.cherepkova.ru/" target="_blank">Cherry Studio</a>
                             </div>
                         </div>
                     </div>
@@ -220,6 +253,7 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/jquery.fancybox.min.js"></script>
         <script src="js/slick.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
         <script src="js/script.js"></script>
 
     </body>
