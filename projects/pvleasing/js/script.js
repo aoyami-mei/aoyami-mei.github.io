@@ -212,14 +212,14 @@ $(document).ready(function () {
     $('body,html').animate({scrollTop: top}, 1500);
   });
 
-  $('.parallax-change').mouseover(function () {
-    $('.parallax-mirror').eq(0).find('img:not(:eq(0))').remove();
-    let original = $('.parallax-mirror').eq(0).find('img');
-    let clone = $('.parallax-mirror').eq(0).find('img').clone();
-    clone.attr('src', original.data('image-src'));
-    clone.appendTo($('.parallax-mirror').eq(0));
-    original.attr('src', $(this).data('image-src'));
-    clone.animate({opacity: 0});
-  });
+  // $('.parallax-change').mouseover(function () {
+  //   $('.parallax-mirror').eq(0).find('img:not(:eq(0))').remove();
+  //   let original = $('.parallax-mirror').eq(0).find('img');
+  //   let clone = $('.parallax-mirror').eq(0).find('img').clone();
+  //   clone.attr('src', original.data('image-src'));
+  //   clone.appendTo($('.parallax-mirror').eq(0));
+  //   original.attr('src', $(this).data('image-src'));
+  //   clone.animate({opacity: 0});
+  // });
 
 });

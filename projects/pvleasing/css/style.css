@@ -515,6 +515,12 @@ section.main-block .container .row {
   height: 100%;
 }
 
+.btn-pop-up_submit-applic {
+  display: flex;
+    width: 160px;
+    height: 48px;
+}
+
 section.main-block.main-block-index .row {
   flex-direction: column;
 }
@@ -807,7 +813,7 @@ section.programm .one-advan span {
 }
 section.programm .one-advan .ellipse {
 	position: absolute;
-  z-index: -1;
+/*  z-index: -1;*/
   top: -80px;
   opacity: 0;
 }
