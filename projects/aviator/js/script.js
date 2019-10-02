@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(window).on('load', function(){
 	$('.slider-row').height($('.slider-main').height());
 });
 
