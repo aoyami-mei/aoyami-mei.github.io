@@ -2709,6 +2709,18 @@ header .mini-display-basket a {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
+.good-in-cart.disabled {
+	box-shadow: none;
+}
+
+.good-in-cart.disabled .good-in-cart_number,
+.good-in-cart.disabled .good-in-cart_photo,
+.good-in-cart.disabled .good-in-cart_name, 
+.good-in-cart.disabled .good-in-cart_price, 
+.good-in-cart.disabled .good-in-cart_amount {
+	opacity: 0.3;
+}
+
 .good-in-cart_number {
 	width: 60px;
 	text-align: center;
