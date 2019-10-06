@@ -361,31 +361,31 @@ $.fn.spinnerorder = function() {
       }
       else
       {
-        $('.content-cart .item_'+id).addClass('disabled');  
+        $(this).parents('.good-in-cart').addClass('disabled');  
         el.val(0);  
-        var basket = decodeURI($.cookie("basket")); 
-        basketArray = basket.split(",");
-        basket = '';
-        for(var i=0; i<basketArray.length-1;i++) {
-          goodsId = basketArray[i].split(":");
-          if ( goodsId[0]!=el.data("id")) basket+= goodsId[0] + ':' + goodsId[1] + ':' + goodsId[2] + ':' + goodsId[3] + ',';
-        }
-        totalCountGoods =  basketArray.length-1; 
-        $.cookie("basket", basket, {path: "/"});        
+        // var basket = decodeURI($.cookie("basket")); 
+        // basketArray = basket.split(",");
+        // basket = '';
+        // for(var i=0; i<basketArray.length-1;i++) {
+        //   goodsId = basketArray[i].split(":");
+        //   if ( goodsId[0]!=el.data("id")) basket+= goodsId[0] + ':' + goodsId[1] + ':' + goodsId[2] + ':' + goodsId[3] + ',';
+        // }
+        // totalCountGoods =  basketArray.length-1; 
+        // $.cookie("basket", basket, {path: "/"});        
       }
-      basket_full_update();
-      bakset_preview_update();  
+      //basket_full_update();
+      //bakset_preview_update();  
     });
     el.parent().on('click', '.s-up', function () {
       if (el.val()==0) {
-        basket = decodeURI($.cookie("basket"));
-        basket += el.data("id") + ':1:' + el.data("price") + ':' + el.data("variant_id") + ',';
-        $.cookie("basket", basket, {path: "/"});
+        //basket = decodeURI($.cookie("basket"));
+        //basket += el.data("id") + ':1:' + el.data("price") + ':' + el.data("variant_id") + ',';
+        //$.cookie("basket", basket, {path: "/"});
       }
       el.val( function(i, oldval) { return ++oldval; });  
-      if ($('.content-cart').length) $('.content-cart .item_'+id).removeClass('disabled');  
-      basket_full_update();
-      bakset_preview_update();
+      if ($('.content-cart').length) $(this).parents('.good-in-cart').removeClass('disabled'); 
+      //basket_full_update();
+      //bakset_preview_update();
     });
   });
 };
