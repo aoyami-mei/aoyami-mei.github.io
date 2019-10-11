@@ -54,6 +54,10 @@ input { outline: none; }
 
 main { min-height: calc(100vh - 732px); }
 
+a:link, a:visited, a:hover, a:focus, a:active, button:link, button:visited, button:hover, button:focus, button:active { border: 0; outline: 0; }
+
+*:focus { outline: none; }
+
 /*********** END Common ***********/
 
 header {
@@ -269,10 +273,12 @@ header {
     line-height: 0;
     left: 140px;
     top: 26px;
+    transition: all 0.3s;
 }
 
 .wrap-for-hover-1:hover button::after {
     content: url('../images/arrow-white-bottom.png');
+    transform: rotate(180deg);
 }
 
 .wrap-for-hover-2 button::after {
@@ -283,10 +289,12 @@ header {
     line-height: 0;
     left: 173px;
     top: 26px;
+    transition: all 0.3s;
 }
 
 .wrap-for-hover-2:hover button::after {
     content: url('../images/arrow-white-bottom.png');
+    transform: rotate(180deg);
 }
 
 .search {
@@ -307,7 +315,7 @@ header {
 	font-family: CeraPro-Regular;
 	padding-left: 31px;
 	border: none;
-	/*transition: all 0.3s;*/
+	
 }
 
 .search-field:focus {
@@ -316,6 +324,7 @@ header {
 	z-index: 100;
 	right: 0;
 	padding-left: 65px;
+    transition: all 0.3s;
 }
 
 .search-button {
@@ -328,13 +337,13 @@ header {
     border: none;
     cursor: pointer;
     z-index: 4;
-    /*transition: all 0.3s;*/
     font-size: 0;
 }
 
 .search-field:focus + .search-button {
 	left: -470px;
 	z-index: 150;
+    transition: all 0.3s;
 }
 
 .search-field::-webkit-input-placeholder { color: #37BCF7; }
@@ -549,12 +558,12 @@ header {
 .diploms a {
     display: flex !important;
     justify-content: center;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     height: 200px;
 }
 
 .diploms a.slick-center {
-    opacity: 1;
+    /*opacity: 1;*/
     position: relative;
 }
 
@@ -583,6 +592,12 @@ header {
     width: 38px;
     height: 40px;
     left: calc(50% - 19px);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.diploms a.slick-center:hover::after {
+    opacity: 1;
 }
 
 .diploms .wrap-slider .prevArrow{
@@ -721,16 +736,27 @@ header {
     font-size: 15px;
     font-family: CeraPro-Regular;
     width: 100%;
-    padding: 16px 20px 16px 20px;
+    padding: 16px 41px 16px 20px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     border-top: 1px solid #09A2E6;
+    position: relative;
 }
 
-.one-new .link-new img {
-    margin-left: 10px;
-    margin-top: 2px;
+.one-new .link-new::before {
+    content: "";
+    background-image: url('../images/blue-arrow.png');
+    width: 11px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: all 0.3s;
+}
+
+.one-new:hover .link-new::before {
+    right: 15px;
 }
 
 .catalog {
@@ -1206,6 +1232,10 @@ h1.title-page {
     min-height: 26px;
 }
 
+.address-contr span {
+    line-height: 1.3;
+}
+
 .page-catalog {
     margin-top: 0px;
     margin-bottom: 85px;
@@ -1370,6 +1400,7 @@ p.text {
 }
 
 .button-for-popup {
+    position: relative;
     width: 240px;
     height: 55px;
     margin: 0 auto;
@@ -1387,9 +1418,19 @@ p.text {
     color: #FFFFFF;
 }
 
-.button-for-popup img {
-    margin-left: 15px;
-    margin-top: 2px;
+.button-for-popup::after {
+    content: '';
+    background-image: url('../images/arrow-button.png');
+    position: absolute;
+    width: 15px;
+    height: 14px;
+    right: 20px;
+    top: 22px;
+    transition: all 0.3s;
+}
+
+.button-for-popup:hover::after {
+    right: 15px;
 }
 
 .page-new .row {
@@ -1624,6 +1665,11 @@ p.text {
     font-size: 17px;
     line-height: 24px;
     color: #2A2A2A;
+    transition: all 0.3s;
+}
+
+.button-for-print:hover span {
+    color: #09A2E6;
 }
 
 .link-print {
@@ -2093,8 +2139,6 @@ form input {
 
 .mobile-menu { display: none; }
 
-.wrap-slider-good .slider-for .slick-prev, .wrap-slider-good .slider-for .slick-next { display: none !important; }
-
 /*********** Media Style **********/
 @media (min-width: 1920px) {
     body {
@@ -2299,38 +2343,6 @@ form input {
     .mobile-menu .address span { line-height: 1; }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 360px) 
 } 
 /************ END Media Style ******/
-
-@media (max-width: 1099px) {
-    .admin-panel { display: none; }
-}
-
-@media (min-width: 1100px) {
-    .admin-panel {
-        position: fixed;
-        z-index: 1000000;
-        height: 100vh;
-        width: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: rgba(256, 256, 256, 0.5);
-        padding-top: 15px;
-    }
-
-    .admin-panel a {
-        font-size: 18px;
-        margin-bottom: 10px;
-        width: 100%;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .admin-panel a:hover {
-        background-color: #ffffff;
-    }
-}
